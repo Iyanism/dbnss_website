@@ -58,10 +58,17 @@ export default function ResultGrid() {
                                 <div className="text-[8px] font-bold text-slate-400 uppercase tracking-widest leading-none">Star Marks</div>
                             </div>
                         </div>
-                        <button className="flex items-center justify-between w-full p-4 rounded-xl bg-slate-50 group-hover:bg-blue-600 group-hover:text-white transition-all text-slate-600">
-                            <span className="text-[10px] font-black uppercase tracking-widest">Subject-wise Stats</span>
-                            <Download size={16} />
-                        </button>
+                        
+                        <div className="space-y-3">
+                            <button className="flex items-center justify-between w-full p-4 rounded-2xl bg-slate-50 border border-slate-100 group-hover:bg-white group-hover:border-blue-100 group-hover:shadow-lg transition-all text-slate-600 hover:text-blue-600">
+                                <span className="text-[10px] font-black uppercase tracking-widest">Subject Stats</span>
+                                <Download size={14} />
+                            </button>
+                            <button className="flex items-center justify-between w-full p-4 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all shadow-sm">
+                                <span className="text-[10px] font-black uppercase tracking-widest">Student List (XLS)</span>
+                                <Download size={14} />
+                            </button>
+                        </div>
                     </div>
                 </motion.div>
             ))}

@@ -25,7 +25,7 @@ export default function PrincipalSection() {
                         {/* Image Container */}
                         <div className="relative aspect-4/5 w-full max-w-lg mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-2xl">
                             <Image
-                                src="https://picsum.photos/seed/principal/600/700"
+                                src="/dbnss/principal_sir/20260302_105406.jpg.jpeg"
                                 alt="Dr. Arnab Saikia - Principal"
                                 fill
                                 className="object-cover hover:scale-105 transition-transform duration-700"

@@ -4,54 +4,48 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 // Enhanced campus life data with actual Unsplash images
+// Enhanced campus life data focusing on events and school activities
 const campusItems = [
     {
         id: 1,
-        title: "Smart Classrooms",
-        description: "Technology-enabled learning spaces with interactive smart boards",
-        img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&auto=format&fit=crop",
+        title: "Freshers' Social 2022",
+        description: "Welcoming the newest members of the DBNSS family with vibrancy and talent showcases.",
+        img: "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.35 PM.jpeg",
         size: "md:col-span-2 md:row-span-2",
     },
     {
         id: 2,
-        title: "Science Laboratories",
-        description: "Fully equipped labs for physics, chemistry, and biology",
-        img: "https://images.unsplash.com/photo-1562774053-701939374585?w=1200&auto=format&fit=crop",
+        title: "Environment Day",
+        description: "Committing to a greener future through plantation drives and environmental awareness.",
+        img: "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.41.22 PM.jpeg",
         size: "md:col-span-1 md:row-span-1",
     },
     {
         id: 3,
-        title: "Sports Facilities",
-        description: "Cricket ground, basketball court, and indoor games",
-        img: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&auto=format&fit=crop",
+        title: "Scientific Seminars",
+        description: "Exploring biodiversity and conservation strategies with experts.",
+        img: "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.24.25 PM.jpeg",
         size: "md:col-span-1 md:row-span-1",
     },
     {
         id: 4,
-        title: "Central Library",
-        description: "Extensive collection of books, journals, and digital resources",
-        img: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200&auto=format&fit=crop",
+        title: "Sports Excellence",
+        description: "Showcasing athleticism, discipline, and the true spirit of sportsmanship.",
+        img: "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.jpeg",
         size: "md:col-span-1 md:row-span-1",
     },
     {
         id: 5,
-        title: "Cultural Events",
-        description: "Annual day celebrations, talent shows, and cultural festivals",
-        img: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=1200&auto=format&fit=crop",
+        title: "Annual Picnic",
+        description: "Moments of joy, bonding, and exploring beyond the classroom.",
+        img: "/dbnss/picnic_2022/WhatsApp Image 2026-03-02 at 9.43.09 PM.jpeg",
         size: "md:col-span-1 md:row-span-1",
     },
     {
         id: 6,
-        title: "Computer Labs",
-        description: "Modern computing facilities with high-speed internet",
-        img: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=1200&auto=format&fit=crop",
-        size: "md:col-span-1 md:row-span-1",
-    },
-    {
-        id: 7,
-        title: "Washroom",
-        description: "Peaceful space for morning assembly and meditation",
-        img: "/washroom.jpeg",
+        title: "Social Responsibility",
+        description: "Active participation in Swacha Bharat and civic engagement.",
+        img: "/dbnss/Swacha bharat mission/WhatsApp Image 2026-03-02 at 9.19.17 PM.jpeg",
         size: "md:col-span-1 md:row-span-1",
     },
 ];
@@ -69,13 +63,13 @@ export default function CampusLifeSection() {
                     className="text-center max-w-4xl mx-auto mb-16 md:mb-24"
                 >
                     <span className="inline-block text-blue-600 font-bold uppercase tracking-[0.3em] text-xs mb-4 bg-blue-50 px-6 py-2 rounded-full border border-blue-100">
-                        World-Class Infrastructure
+                        Vibrant Campus Culture
                     </span>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-6">
-                        Excellence Beyond <span className="text-blue-600">Academics</span>
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-6 uppercase tracking-tighter">
+                        LIFE AT <span className="text-blue-600">DBNSS.</span>
                     </h2>
                     <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto font-medium">
-                        Explore the state-of-the-art facilities that make Dr. Bhabendra Nath Saikia the best choice for holistic development in Assam.
+                        Beyond the classroom, our students engage in a rich tapestry of cultural, scientific, and community activities that shape their character.
                     </p>
                 </motion.div>
 
@@ -122,6 +116,18 @@ export default function CampusLifeSection() {
                             <div className="absolute top-0 left-0 w-0 h-1 bg-blue-400 group-hover:w-full transition-all duration-500" />
                         </motion.div>
                     ))}
+                </div>
+
+                <div className="mt-20 text-center">
+                    <motion.a
+                        href="/events"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="inline-flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-blue-600 transition-colors shadow-xl"
+                    >
+                        Explore All Events
+                        <span className="w-6 h-6 rounded-lg bg-white/20 flex items-center justify-center">→</span>
+                    </motion.a>
                 </div>
             </div>
         </section>

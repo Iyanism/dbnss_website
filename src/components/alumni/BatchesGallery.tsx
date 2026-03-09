@@ -5,12 +5,17 @@ import Image from "next/image";
 
 const batches = [
     {
-        year: "2019",
+        year: "2025",
         images: [
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.42 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.43 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM (1).jpeg"
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.40 PM (2).jpeg",
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM.jpeg",
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM (1).jpeg"
+        ]
+    },
+    {
+        year: "2023",
+        images: [
+            "/dbnss/farewell_2023/WhatsApp Image 2026-03-02 at 9.25.52 PM.jpeg"
         ]
     },
     {
@@ -18,6 +23,15 @@ const batches = [
         images: [
             "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.45 PM.jpeg",
             "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.46 PM.jpeg"
+        ]
+    },
+    {
+        year: "2019",
+        images: [
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.42 PM.jpeg",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.43 PM.jpeg",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM.jpeg",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM (1).jpeg"
         ]
     }
 ];
@@ -29,7 +43,7 @@ export default function BatchesGallery() {
                 <div className="mb-16">
                     <span className="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] block mb-2">Academic Generations</span>
                     <h2 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter">
-                        ALUMNI <span className="text-blue-600">GENERATIONS.</span>
+                        ALUMNI <span className="text-blue-600">BATCHES.</span>
                     </h2>
                 </div>
 
@@ -39,7 +53,7 @@ export default function BatchesGallery() {
                             <h3 className="text-2xl font-black text-slate-400 uppercase tracking-widest border-l-4 border-blue-600 pl-6">
                                 Class of {batch.year}
                             </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                                 {batch.images.map((src, imgIdx) => (
                                     <motion.div
                                         key={imgIdx}

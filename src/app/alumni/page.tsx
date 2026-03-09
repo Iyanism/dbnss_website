@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import MainBanner from "@/components/alumni/MainBanner";
 import PioneersSection from "@/components/alumni/PioneersSection";
 import BatchesGallery from "@/components/alumni/BatchesGallery";
-import AlumniGallery from "@/components/alumni/AlumniGallery";
 
 export const metadata: Metadata = {
     title: "Alumni & Legacy | Dr. Bhupendra Nath Saikia Senior Secondary School",
@@ -16,7 +15,6 @@ export default function AlumniPage() {
             <MainBanner />
             <PioneersSection />
             <BatchesGallery />
-            <AlumniGallery />
         </main>
     );
 }
