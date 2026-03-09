@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/layouts/NavBar";
 import Footer from "@/components/layouts/Footer";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Dr. Bhabendra Nath Saikia Senior Secondary School | Best School in Khetri, Assam",
@@ -17,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased`}>
+        <Analytics />
+        <SpeedInsights />
         <NavBar />
         {children}
         <Footer />
