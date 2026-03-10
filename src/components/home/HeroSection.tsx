@@ -106,33 +106,33 @@ export default function HeroSection() {
               </div>
 
               {/* Content */}
-              <div className="relative z-10 h-full flex items-center">
-                <div className="px-6 md:px-12 lg:px-24 max-w-5xl">
+              <div className="relative z-10 h-full flex items-center justify-center md:justify-start">
+                <div className="px-6 md:px-12 lg:px-24 w-full max-w-5xl">
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="bg-black/10 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-white/20 inline-block shadow-2xl"
+                    className="bg-black/20 backdrop-blur-xl p-8 md:p-12 rounded-[2.5rem] border border-white/20 shadow-2xl text-center md:text-left w-full sm:w-auto mx-auto md:mx-0"
                   >
-                    <span className="inline-block bg-blue-600 text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest mb-6 shadow-lg">
+                    <span className="inline-block bg-blue-600 text-white px-5 py-2 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-widest mb-6 shadow-lg">
                       {slide.tagline}
                     </span>
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none mb-6 drop-shadow-sm">
+                    <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6 drop-shadow-sm uppercase tracking-tighter">
                       {slide.title}
                     </h1>
-                    <p className="text-lg md:text-2xl text-white/90 mb-10 max-w-2xl leading-relaxed font-medium">
+                    <p className="text-base md:text-2xl text-white/90 mb-10 max-w-2xl leading-relaxed font-medium mx-auto md:mx-0">
                       {slide.description}
                     </p>
-                    <div className="flex flex-wrap gap-5">
+                    <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 md:gap-5">
                       <button
-                        className="group bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-xl font-bold transition-all duration-300 flex items-center gap-3 shadow-[0_10px_30px_-10px_rgba(37,99,235,0.5)] transform hover:-translate-y-1 hover:scale-105"
+                        className="group bg-blue-600 hover:bg-blue-700 text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_10px_30px_-10px_rgba(37,99,235,0.5)]"
                       >
-                        Admissions Open <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        Admissions Open <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                       </button>
                       <button
-                        className="group bg-white/10 hover:bg-white/20 backdrop-blur-xl text-white border border-white/40 px-10 py-5 rounded-xl font-bold transition-all duration-300 flex items-center gap-3 hover:border-white/60 transform hover:-translate-y-1"
+                        className="group bg-white/10 hover:bg-white/20 backdrop-blur-xl text-white border border-white/40 px-8 md:px-10 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all duration-300 flex items-center justify-center gap-3 hover:border-white/60"
                       >
-                        Explore Courses <BookOpen size={20} className="group-hover:scale-110 transition-transform text-blue-400" />
+                        Explore Courses <BookOpen size={18} className="group-hover:scale-110 transition-transform text-blue-400" />
                       </button>
                     </div>
                   </motion.div>

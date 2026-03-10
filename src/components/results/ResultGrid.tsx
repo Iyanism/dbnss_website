@@ -34,9 +34,14 @@ export default function ResultGrid() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: idx * 0.1 }}
-                    className="p-8 rounded-[2rem] bg-white border border-slate-100 hover:shadow-2xl transition-all group relative overflow-hidden"
+                    className="p-8 rounded-[2.5rem] bg-white border-2 border-slate-200/60 shadow-[0_20px_50px_-20px_rgba(30,41,59,0.15)] hover:shadow-[0_40px_80px_-20px_rgba(37,99,235,0.2)] hover:border-blue-200 hover:-translate-y-2 transition-all duration-500 group relative overflow-hidden"
                 >
-                    <div className="absolute top-0 right-0 p-4 bg-blue-50 text-blue-600 rounded-bl-[1.5rem]">
+                    {/* Background Accent Icon */}
+                    <div className="absolute -bottom-8 -right-8 text-blue-600 opacity-[0.03] group-hover:opacity-[0.05] transition-opacity">
+                        <GraduationCap size={200} strokeWidth={1} />
+                    </div>
+
+                    <div className="absolute top-0 right-0 p-4 bg-blue-50 text-blue-600 rounded-bl-[2.5rem] border-l-2 border-b-2 border-white shadow-sm z-10">
                         <span className="text-xl font-black">{item.year}</span>
                     </div>
                     <div className="space-y-6">
@@ -76,8 +81,12 @@ export default function ResultGrid() {
     );
 
     return (
-        <section className="py-24 bg-slate-50/50">
-            <div className="container mx-auto px-6 md:px-12">
+        <section className="py-24 bg-slate-50/50 relative overflow-hidden">
+            {/* Background Texture for better separation */}
+            <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
+                 style={{ backgroundImage: 'radial-gradient(#1e293b 0.5px, transparent 0.5px)', backgroundSize: '24px 24px' }} />
+
+            <div className="container mx-auto px-6 md:px-12 relative z-10">
                 <div className="text-center mb-16 space-y-4">
                     <span className="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] block">Academic Records</span>
                     <h2 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter">
@@ -97,7 +106,7 @@ export default function ResultGrid() {
                                 onClick={() => setActiveTab(tab.id as "hslc" | "hs-science" | "hs-arts")}
                                 className={`px-8 py-4 rounded-2xl text-[10px] font-black uppercase tracking-widest transition-all ${activeTab === tab.id
                                     ? "bg-blue-600 text-white shadow-xl shadow-blue-500/30"
-                                    : "bg-white text-slate-500 hover:bg-slate-100"
+                                    : "bg-white text-slate-500 border border-slate-100 hover:bg-slate-50"
                                     }`}
                             >
                                 {tab.label}
