@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function CoursesMainBanner() {
     return (
-        <section className="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image with optimized loading */}
             <Image
                 src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920&auto=format&fit=crop"
@@ -14,7 +14,6 @@ export default function CoursesMainBanner() {
                 priority
                 className="object-cover scale-105"
                 sizes="100vw"
-                quality={90}
             />
 
             {/* Sharp Dark Overlay for maximum text visibility */}

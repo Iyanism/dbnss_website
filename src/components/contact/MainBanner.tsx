@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function ContactMainBanner() {
     return (
-        <section className="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image - School campus or high-quality administrative photo */}
             <Image
                 src="https://images.unsplash.com/photo-1577412647305-991150c7d163?w=1920&auto=format&fit=crop"
