@@ -174,26 +174,26 @@ export default function NavBar() {
             transition={{ duration: 0.3 }}
             className="xl:hidden bg-white border-t border-slate-100 shadow-2xl overflow-hidden"
           >
-            <div className="container mx-auto px-6 py-8">
-              <nav className="flex flex-col gap-4">
+            <div className="container mx-auto px-6 py-8 max-h-[calc(100vh-100px)] overflow-y-auto pb-20">
+              <nav className="flex flex-col gap-3">
                 {NAVLINKS.map((link) => (
                   <Link
                     key={link.id}
                     href={link.href}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="py-4 px-6 text-slate-700 hover:text-blue-600 hover:bg-blue-50/50 rounded-2xl transition-all font-bold text-lg border border-transparent hover:border-blue-100"
+                    className="py-3 px-6 text-slate-700 hover:text-blue-600 hover:bg-blue-50/50 rounded-2xl transition-all font-bold text-lg border border-transparent hover:border-blue-100"
                   >
                     {link.label}
                   </Link>
                 ))}
-                <div className="pt-6 mt-4 border-t border-slate-100">
+                <div className="pt-6 mt-2 border-t border-slate-100">
                   <Button
                     className="w-full bg-blue-600 hover:bg-blue-700 text-white py-8 text-lg font-black rounded-2xl shadow-xl"
                   >
                     APPLY ONLINE
                   </Button>
                 </div>
-                <div className="pt-6 text-xs text-slate-400 text-center font-bold tracking-widest uppercase">
+                <div className="pt-6 text-[10px] text-slate-400 text-center font-bold tracking-widest uppercase">
                   Affiliation No: 987654 | Est. 2004
                 </div>
               </nav>
