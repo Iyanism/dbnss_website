@@ -30,7 +30,7 @@ export default function AboutSection() {
                         <div className="absolute -inset-4 bg-blue-600/10 rounded-[2.5rem] blur-2xl group-hover:bg-blue-600/20 transition-all duration-700" />
                         <div className="relative aspect-video md:aspect-video lg:aspect-video overflow-hidden rounded-[2rem] border border-blue-100 shadow-2xl">
                             <Image
-                                src="/school-about.jpeg"
+                                src="/school-about.webp"
                                 alt="Dr. Bhabendra Nath Saikia Senior Secondary School Campus"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-700"

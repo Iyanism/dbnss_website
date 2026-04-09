@@ -15,19 +15,7 @@ const activities = [
             "Athletics Training Program",
             "Specialized Coaching Sessions"
         ],
-        image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1000&auto=format&fit=crop"
-    },
-    {
-        title: "Clubs & Societies",
-        icon: Users,
-        desc: "From Science Innovation to Literary Debates, our clubs nurture specific interests beyond textbooks. We encourage students to lead and innovate within their chosen fields.",
-        details: [
-            "Science & Innovation Club",
-            "Literary & Debating Society",
-            "Eco-Green Environmental Club",
-            "IT & Coding Workshop"
-        ],
-        image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1000&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1771257807779-a72e74deaa11?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Arts & Culture",
@@ -39,19 +27,7 @@ const activities = [
             "Visual Arts & Painting",
             "Annual Cultural Fest"
         ],
-        image: "https://images.unsplash.com/photo-1544531585-9837bd664d4b?w=1000&auto=format&fit=crop"
-    },
-    {
-        title: "House System",
-        icon: ShieldCheck,
-        desc: "Four houses competing for the annual Championship, fostering leadership and institutional loyalty. The house system is the backbone of our school's competitive and collaborative culture.",
-        details: [
-            "Leadership Training",
-            "House Championship Points",
-            "Monthly House Competitions",
-            "Community Service Projects"
-        ],
-        image: "https://images.unsplash.com/photo-1523050338692-7b835a07734f?w=1000&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1592060035939-ae6e7a1cba86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
 ];
 

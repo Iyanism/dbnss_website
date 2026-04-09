@@ -10,22 +10,22 @@ const labs = [
         icon: Beaker,
         desc: "Equipped with advanced apparatus for electricity, optics, and mechanics. Our lab provides students with a hands-on understanding of the fundamental principles of physics.",
         features: ["Optical Benches", "Sonometer & Resonators", "Electronic Testing Tools", "Capacitance Measurement"],
-        image: "/dbnss/facilities/physics_lab.jpeg"
+        image: "/dbnss/facilities/physics_lab.webp"
     },
     {
         title: "Chemistry Laboratory",
         icon: FlaskConical,
         desc: "A safe, well-ventilated space featuring precision balances, chemical storage, and apparatus for qualitative and quantitative analysis.",
         features: ["Digital PH Meters", "Centrifuge Machines", "Distillation Units", "Safety Showers & Gear"],
-        image: "/dbnss/facilities/chemistry_lab.jpeg"
+        image: "/dbnss/facilities/chemistry_lab.webp"
     },
     {
         title: "Biology Laboratory",
         icon: Microscope,
         desc: "Exploring the marvels of life science through compound microscopes, human skeletal models, and high-quality specimens.",
         features: ["Compound Microscopes", "Permanent Specimens", "Human Skeleton Model", "Dissection Kits"],
-        image: "/dbnss/facilities/biology.jpeg",
-        image2: "/dbnss/facilities/biology1.jpeg"
+        image: "/dbnss/facilities/biology.webp",
+        image2: "/dbnss/facilities/biology1.webp"
     }
 ];
 

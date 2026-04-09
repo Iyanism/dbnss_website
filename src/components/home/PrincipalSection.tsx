@@ -23,7 +23,7 @@ export default function PrincipalSection() {
                             className="relative aspect-[4/5] md:aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-[0_40px_80px_-20px_rgba(30,41,59,0.2)] bg-slate-100"
                         >
                             <Image
-                                src="/dbnss/principal_sir/20260302_105406.jpg.jpeg"
+                                src="/dbnss/principal_sir/20260302_105406.jpg.webp"
                                 alt="Dr. Arnab Saikia - Principal"
                                 fill
                                 className="object-cover transition-transform duration-1000 group-hover:scale-110"

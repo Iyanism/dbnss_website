@@ -57,7 +57,7 @@ export default function Footer() {
                         <div className="flex items-center gap-4 mb-8">
                             <div className="relative w-12 h-12 md:w-16 md:h-14 bg-white rounded-xl md:rounded-2xl flex items-center justify-center shadow-xl overflow-hidden border border-blue-50">
                                 <Image
-                                    src="/school-logo.jpeg"
+                                    src="/school-logo.webp"
                                     alt="DBNSS Logo"
                                     fill
                                     className=""

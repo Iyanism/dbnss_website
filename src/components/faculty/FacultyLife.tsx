@@ -5,8 +5,8 @@ import Image from "next/image";
 import { Coffee, UserCheck } from "lucide-react";
 
 const staffImages = [
-    "/dbnss/staff_room/20260302_104713.jpg.jpeg",
-    "/dbnss/teachers/20260302_104930.jpg.jpeg"
+    "/dbnss/staff_room/20260302_104713.jpg.webp",
+    "/dbnss/teachers/20260302_104930.jpg.webp"
 ];
 
 export default function FacultyLife() {

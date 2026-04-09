@@ -103,7 +103,7 @@ export default function NavBar() {
             {/* Logo & School Name */}
             <Link href="/" className="flex items-center gap-3 md:gap-4 group">
               <div className="relative w-12 h-12 md:w-16 md:h-16 bg-white rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/20 transition-all duration-300 transform group-hover:-rotate-3 shrink-0 overflow-hidden border border-slate-100">
-                <Image src="/school-logo.jpeg" alt="DBNSS Logo" fill className="" />
+                <Image src="/school-logo.webp" alt="DBNSS Logo" fill className="" />
               </div>
               <div className="flex flex-col min-w-0">
                 <h1 className="text-blue-700 font-black text-xs sm:text-base md:text-xl lg:text-2xl leading-none tracking-tight truncate">

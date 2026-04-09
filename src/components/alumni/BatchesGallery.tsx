@@ -7,31 +7,31 @@ const batches = [
     {
         year: "2025",
         images: [
-            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.40 PM (2).jpeg",
-            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM.jpeg",
-            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM (1).jpeg"
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.40 PM (2).webp",
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM.webp",
+            "/dbnss/farewell_2025/WhatsApp Image 2026-03-02 at 9.16.41 PM (1).webp"
         ]
     },
     {
         year: "2023",
         images: [
-            "/dbnss/farewell_2023/WhatsApp Image 2026-03-02 at 9.25.52 PM.jpeg"
+            "/dbnss/farewell_2023/WhatsApp Image 2026-03-02 at 9.25.52 PM.webp"
         ]
     },
     {
         year: "2020",
         images: [
-            "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.45 PM.jpeg",
-            "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.46 PM.jpeg"
+            "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.45 PM.webp",
+            "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.46 PM.webp"
         ]
     },
     {
         year: "2019",
         images: [
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.42 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.43 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM.jpeg",
-            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM (1).jpeg"
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.42 PM.webp",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.18.43 PM.webp",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM.webp",
+            "/dbnss/2019_batch/WhatsApp Image 2026-03-02 at 9.40.18 PM (1).webp"
         ]
     }
 ];

@@ -8,7 +8,7 @@ export default function FacultyMainBanner() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image */}
             <Image
-                src="/dbnss/teachers/20260302_104910.jpg.jpeg"
+                src="/dbnss/teachers/20260302_104910.jpg.webp"
                 alt="Our Distinguished Faculty"
                 fill
                 priority

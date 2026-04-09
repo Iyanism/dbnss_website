@@ -37,7 +37,7 @@ export default function HeritageSection() {
                         className="relative aspect-video md:aspect-4/3 rounded-[3rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(37,99,235,0.2)] border border-slate-100"
                     >
                         <Image
-                            src="/dbnss/flag/WhatsApp Image 2026-03-02 at 9.27.43 PM.jpeg"
+                            src="/dbnss/flag/WhatsApp Image 2026-03-02 at 9.27.43 PM.webp"
                             alt="DBNSS School Flag"
                             fill
                             className="object-cover"

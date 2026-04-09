@@ -11,7 +11,7 @@ const images = [
         caption: "Hostel & Research Wing"
     },
     {
-        src: "/dbnss/infra/volly_ball.jpeg",
+        src: "/dbnss/infra/volly_ball.webp",
         alt: "Modern Interior Concept",
         caption: "Smart Common Areas"
     },

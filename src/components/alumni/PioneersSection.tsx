@@ -5,8 +5,8 @@ import Image from "next/image";
 import { Award, Star } from "lucide-react";
 
 const pioneerImages = [
-    "/dbnss/first_batch_2018/WhatsApp Image 2026-03-02 at 9.34.53 PM.jpeg",
-    "/dbnss/first_batch_2018/WhatsApp Image 2026-03-02 at 9.34.54 PM.jpeg"
+    "/dbnss/first_batch_2018/WhatsApp Image 2026-03-02 at 9.34.53 PM.webp",
+    "/dbnss/first_batch_2018/WhatsApp Image 2026-03-02 at 9.34.54 PM.webp"
 ];
 
 export default function PioneersSection() {

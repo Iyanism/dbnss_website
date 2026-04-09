@@ -27,7 +27,7 @@ const facilities = [
             "Reference & Study Materials",
             "Digital Resources Coming Soon"
         ],
-        image: "/dbnss/facilities/library.png"
+        image: "/dbnss/facilities/library.webp"
     },
     {
         title: "Sports & Athletics",

@@ -16,31 +16,31 @@ const campusItems = [
         id: 1,
         title: "Freshers' Social 2022",
         description: "Welcoming the newest members of the DBNSS family with vibrancy and talent showcases.",
-        img: "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.35 PM.jpeg",
+        img: "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.35 PM.webp",
     },
     {
         id: 2,
         title: "Environment Day",
         description: "Committing to a greener future through plantation drives and environmental awareness.",
-        img: "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.41.22 PM.jpeg",
+        img: "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.41.22 PM.webp",
     },
     {
         id: 3,
         title: "Scientific Seminars",
         description: "Exploring biodiversity and conservation strategies with experts.",
-        img: "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.24.25 PM.jpeg",
+        img: "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.24.25 PM.webp",
     },
     {
         id: 4,
         title: "Sports Excellence",
         description: "Showcasing athleticism, discipline, and the true spirit of sportsmanship.",
-        img: "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.jpeg",
+        img: "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.webp",
     },
     {
         id: 5,
         title: "Social Responsibility",
         description: "Active participation in Swacha Bharat and civic engagement.",
-        img: "/dbnss/Swacha bharat mission/WhatsApp Image 2026-03-02 at 9.19.17 PM.jpeg",
+        img: "/dbnss/Swacha bharat mission/WhatsApp Image 2026-03-02 at 9.19.17 PM.webp",
     },
 ];
 

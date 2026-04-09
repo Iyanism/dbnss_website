@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "DBNSS School",
     images: [
       {
-        url: "/school-about.jpeg",
+        url: "/school-about.webp",
         width: 1200,
         height: 630,
         alt: "Dr. Bhabendra Nath Saikia Senior Secondary School Campus",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dr. Bhabendra Nath Saikia Senior Secondary School",
     description: "Premier Senior Secondary School in Khetri, Assam.",
-    images: ["/school-about.jpeg"],
+    images: ["/school-about.webp"],
   },
 };
 

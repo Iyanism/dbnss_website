@@ -136,61 +136,61 @@ export const toppers: Topper[] = [
         name: "Rehena Mallick",
         percentage: "84.6%",
         year: "2019",
-        image: "/dbnss/result/Rehena_Mallick.png"
+        image: "/dbnss/result/Rehena_Mallick.webp"
     },
     {
         name: "Dibya Jyoti Pukan",
         percentage: "92%",
         year: "2022",
-        image: "/dbnss/result/Dibya_Jyoti_Pukan.png"
+        image: "/dbnss/result/Dibya_Jyoti_Pukan.webp"
     },
     {
         name: "Sumi Pator",
         percentage: "79.6%",
         year: "2023",
-        image: "/dbnss/result/Sumi_Pator.png"
+        image: "/dbnss/result/Sumi_Pator.webp"
     },
     {
         name: "Alimpa Medhi",
         percentage: "88.8%",
         year: "2023",
-        image: "/dbnss/result/Alimpa_Medhi.png"
+        image: "/dbnss/result/Alimpa_Medhi.webp"
     },
     {
         name: "Anubha Marme",
         percentage: "88.2%",
         year: "2024",
-        image: "/dbnss/result/Anubha_Marme.png"
+        image: "/dbnss/result/Anubha_Marme.webp"
     },
     {
         name: "Tina Moni Boro",
         percentage: "86.6%",
         year: "2024",
-        image: "/dbnss/result/Tina_Moni_Boro.png"
+        image: "/dbnss/result/Tina_Moni_Boro.webp"
     },
     {
         name: "Sibangee Bhattacharya",
         percentage: "86.2%",
         year: "2025",
-        image: "/dbnss/result/Sibangee_Bhattacharya.png"
+        image: "/dbnss/result/Sibangee_Bhattacharya.webp"
     },
     {
         name: "Momi Rahang",
         percentage: "88.6%",
         year: "2024",
-        image: "/dbnss/result/Momi_Rahang.png"
+        image: "/dbnss/result/Momi_Rahang.webp"
     },
 ];
 
 export const prideStudents: PrideStudent[] = [
-    { name: "Praiselina R. Sangma", achievement: "MBBS (DMCH)", image: "/dbnss/result/Praiselina_R._Sangma.png" },
-    { name: "Hrishikesh Talukdar", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Hrishikesh_Talukdar.png" },
-    { name: "Dibya Jyoti Phukan", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Dibya_Jyoti_Pukan.png" },
-    { name: "Anubha Marme", achievement: "MBBS (GMCH)", image: "/dbnss/result/Anubha_Marme.png" },
-    { name: "Sumi Pator", achievement: "MBBS (JMCH)", image: "/dbnss/result/Sumi_Pator.png" },
-    { name: "Joel Rahang", achievement: "MBBS (KMCH)", image: "/dbnss/result/Joel_Rahang.png" },
-    { name: "Anupam Rabha", achievement: "B.Tech IIT (Dharwad)", image: "/dbnss/result/Anupam_Rabha.png" },
-    { name: "Purabi Swargiary", achievement: "BDS (GMCH)", image: "/dbnss/result/Purabi_Swargiary.png" },
+    { name: "Praiselina R. Sangma", achievement: "MBBS (DMCH)", image: "/dbnss/result/Praiselina_R._Sangma.webp" },
+    { name: "Hrishikesh Talukdar", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Hrishikesh_Talukdar.webp" },
+    { name: "Dibya Jyoti Phukan", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Dibya_Jyoti_Pukan.webp" },
+    { name: "Anubha Marme", achievement: "MBBS (GMCH)", image: "/dbnss/result/Anubha_Marme.webp" },
+    { name: "Sumi Pator", achievement: "MBBS (JMCH)", image: "/dbnss/result/Sumi_Pator.webp" },
+    { name: "Joel Rahang", achievement: "MBBS (KMCH)", image: "/dbnss/result/Joel_Rahang.webp" },
+    { name: "Anupam Rabha", achievement: "B.Tech IIT (Dharwad)", image: "/dbnss/result/Anupam_Rabha.webp" },
+    { name: "Purabi Swargiary", achievement: "BDS (GMCH)", image: "/dbnss/result/Purabi_Swargiary.webp" },
 ];
 
 export const rulesAndRegulations = [

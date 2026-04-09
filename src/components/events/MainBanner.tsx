@@ -7,7 +7,7 @@ export default function EventsMainBanner() {
     return (
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             <Image
-                src="/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.jpeg"
+                src="/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.webp"
                 alt="DBNSS Events"
                 fill
                 priority

@@ -8,7 +8,18 @@
       "Read(//home/pradeep/Dev/Projects/dbnss_website/src/app/faculty/**)",
       "Read(//home/pradeep/Dev/Projects/dbnss_website/src/app/infrastructure/**)",
       "Read(//home/pradeep/Dev/Projects/dbnss_website/**)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(do *)",
+      "Bash(ls *)",
+      "Bash(done)",
+      "Bash(chmod *)",
+      "Bash(bash *)",
+      "Bash(sed *)",
+      "Bash(rm *)",
+      "Bash(find *)",
+      "Bash(cwebp *)",
+      "Bash(mkdir *)",
+      "Bash(mv *)"
     ]
   },
   "$version": 3

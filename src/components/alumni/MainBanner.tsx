@@ -7,7 +7,7 @@ export default function LifeMainBanner() {
     return (
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             <Image
-                src="/dbnss/flag/WhatsApp Image 2026-03-02 at 9.27.43 PM.jpeg"
+                src="/dbnss/flag/WhatsApp Image 2026-03-02 at 9.27.43 PM.webp"
                 alt="DBNSS Campus Life"
                 fill
                 priority

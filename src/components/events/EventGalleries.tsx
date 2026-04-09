@@ -11,9 +11,9 @@ const allEvents = [
         color: "text-purple-600 bg-purple-50",
         description: "Welcoming the newest members of the DBNSS family with vibrancy and talent showcases.",
         images: [
-            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.35 PM.jpeg",
-            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.37 PM.jpeg",
-            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.37 PM (1).jpeg"
+            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.35 PM.webp",
+            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.37 PM.webp",
+            "/dbnss/2022_freshers/WhatsApp Image 2026-03-02 at 9.22.37 PM (1).webp"
         ]
     },
     {
@@ -22,9 +22,9 @@ const allEvents = [
         color: "text-emerald-600 bg-emerald-50",
         description: "Committing to a greener future through plantation drives and environmental awareness.",
         images: [
-            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.41.22 PM.jpeg",
-            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.31.00 PM.jpeg",
-            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.31.01 PM.jpeg"
+            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.41.22 PM.webp",
+            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.31.00 PM.webp",
+            "/dbnss/Environment day/WhatsApp Image 2026-03-02 at 9.31.01 PM.webp"
         ]
     },
     {
@@ -33,9 +33,9 @@ const allEvents = [
         color: "text-blue-600 bg-blue-50",
         description: "Exploring biodiversity and conservation strategies for the vultures of the region.",
         images: [
-            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.24.25 PM.jpeg",
-            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.21.05 PM.jpeg",
-            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.21.07 PM.jpeg"
+            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.24.25 PM.webp",
+            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.21.05 PM.webp",
+            "/dbnss/Seminar on vulture preservation/WhatsApp Image 2026-03-02 at 9.21.07 PM.webp"
         ]
     },
     {
@@ -44,8 +44,8 @@ const allEvents = [
         color: "text-indigo-600 bg-indigo-50",
         description: "Practical learning and survey work at NEDFi, bridging the gap between theory and reality.",
         images: [
-            "/dbnss/Visit in NEDFi for geography Project work/WhatsApp Image 2026-03-02 at 9.26.45 PM.jpeg",
-            "/dbnss/Visit in NEDFi for geography Project work/WhatsApp Image 2026-03-02 at 9.26.45 PM (1).jpeg"
+            "/dbnss/Visit in NEDFi for geography Project work/WhatsApp Image 2026-03-02 at 9.26.45 PM.webp",
+            "/dbnss/Visit in NEDFi for geography Project work/WhatsApp Image 2026-03-02 at 9.26.45 PM (1).webp"
         ]
     },
     {
@@ -54,8 +54,8 @@ const allEvents = [
         color: "text-amber-600 bg-amber-50",
         description: "Honoring the architects of our future through student-led performances and tributes.",
         images: [
-            "/dbnss/teachers_day_2024/WhatsApp Image 2026-03-02 at 9.45.43 PM.jpeg",
-            "/dbnss/teachers_day_2024/WhatsApp Image 2026-03-02 at 9.45.44 PM.jpeg"
+            "/dbnss/teachers_day_2024/WhatsApp Image 2026-03-02 at 9.45.43 PM.webp",
+            "/dbnss/teachers_day_2024/WhatsApp Image 2026-03-02 at 9.45.44 PM.webp"
         ]
     },
     {
@@ -64,8 +64,8 @@ const allEvents = [
         color: "text-rose-600 bg-rose-50",
         description: "A showcase of athleticism, discipline, and the true spirit of sportsmanship.",
         images: [
-            "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.16.40 PM (1).jpeg",
-            "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.jpeg"
+            "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.16.40 PM (1).webp",
+            "/dbnss/sports_day/WhatsApp Image 2026-03-02 at 9.26.16 PM.webp"
         ]
     }
 ];
