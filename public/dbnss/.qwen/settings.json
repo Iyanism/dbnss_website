@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/components/home/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/components/faculty/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/lib/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/components/infrastructure/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/app/faculty/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/app/infrastructure/**)",
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/**)",
+      "Bash(npm run *)"
+    ]
+  },
+  "$version": 3
+}

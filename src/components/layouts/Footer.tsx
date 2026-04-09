@@ -29,8 +29,8 @@ const quickLinks = [
 
 
 const contactInfo = [
-    { icon: Phone, text: "+91 98765 43210", href: "tel:+919876543210" },
-    { icon: Mail, text: "info@drbsaikiaschool.edu.in", href: "mailto:info@drbsaikiaschool.edu.in" },
+    { icon: Phone, text: "+91 9435609603 / 8133860177", href: "tel:+919435609603" },
+    { icon: Mail, text: "dbns0308@gmail.com", href: "mailto:dbns0308@gmail.com" },
     { icon: MapPin, text: "Khetri, Kamrup (M), Assam - 782403", href: "https://maps.google.com/?q=Khetri,Assam" },
 ];
 
@@ -76,7 +76,7 @@ export default function Footer() {
                         <p className="text-slate-600 mb-8 leading-relaxed text-sm font-medium pr-4">
                             Providing unparalleled educational excellence in Khetri since 2016.
                             We specialize in LKG to Class 12 education with dedicated Arts and Science streams,
-                            fostering a legacy of academic brilliance.
+                            fostering a legacy of academic brilliance for over a decade.
                         </p>
                         {/* Social Links */}
                         <div className="flex gap-4">

@@ -74,35 +74,35 @@ export default function PrincipalSection() {
                                     Welcome to Dr. Bhabendra Nath Saikia Senior Secondary School, a hub of academic brilliance and character building in Khetri.
                                 </p>
                                 <p>
-                                    Since 2005, our mission has been to provide a comprehensive educational path that challenges and inspires. We don&apos;t just teach subjects; we cultivate the next generation of thinkers, innovators, and leaders prepared for the global stage.
+                                    Since 2016, our mission has been to provide a comprehensive educational path that challenges and inspires. We don&apos;t just teach subjects; we cultivate the next generation of thinkers, innovators, and leaders prepared for the global stage.
                                 </p>
                             </div>
 
                             {/* Contact & Professional Connect */}
                             <div className="grid sm:grid-cols-2 gap-4 pt-4">
-                                <a href="mailto:principal@drbsaikiaschool.edu.in" className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-blue-100 hover:shadow-xl transition-all group">
+                                <a href="mailto:dbns0308@gmail.com" className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-blue-100 hover:shadow-xl transition-all group">
                                     <div className="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                         <Mail size={18} />
                                     </div>
                                     <div className="overflow-hidden">
                                         <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">Official Mail</p>
-                                        <p className="text-xs font-bold text-slate-800 truncate">principal@drbsaikiaschool.edu.in</p>
+                                        <p className="text-xs font-bold text-slate-800 truncate">dbns0308@gmail.com</p>
                                     </div>
                                 </a>
-                                <a href="tel:+919876543210" className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-blue-100 hover:shadow-xl transition-all group">
+                                <a href="tel:+919435609603" className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:border-blue-100 hover:shadow-xl transition-all group">
                                     <div className="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                         <Phone size={18} />
                                     </div>
                                     <div>
                                         <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">Direct Line</p>
-                                        <p className="text-xs font-bold text-slate-800">+91 98765 43210</p>
+                                        <p className="text-xs font-bold text-slate-800">+91 9435609603</p>
                                     </div>
                                 </a>
                             </div>
                         </motion.div>
 
                         <div className="pt-8 border-t border-slate-100 text-right">
-                             <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400">Leading with vision since 2005</p>
+                             <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400">Leading with vision since 2016</p>
                         </div>
                     </div>
 

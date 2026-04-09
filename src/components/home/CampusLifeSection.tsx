@@ -38,12 +38,6 @@ const campusItems = [
     },
     {
         id: 5,
-        title: "Annual Picnic",
-        description: "Moments of joy, bonding, and exploring beyond the classroom.",
-        img: "/dbnss/picnic_2022/WhatsApp Image 2026-03-02 at 9.43.09 PM.jpeg",
-    },
-    {
-        id: 6,
         title: "Social Responsibility",
         description: "Active participation in Swacha Bharat and civic engagement.",
         img: "/dbnss/Swacha bharat mission/WhatsApp Image 2026-03-02 at 9.19.17 PM.jpeg",
@@ -107,7 +101,7 @@ export default function CampusLifeSection() {
                                         src={item.img}
                                         alt={item.title}
                                         fill
-                                        className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90 group-hover:opacity-100"
+                                        className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90 group-hover:opacity-100"
                                         sizes="(max-width: 768px) 100vw, 33vw"
                                     />
 

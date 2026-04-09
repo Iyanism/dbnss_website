@@ -6,17 +6,17 @@ import Image from "next/image";
 
 const images = [
     {
-        src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&auto=format&fit=crop",
+        src: "https://images.unsplash.com/photo-1575281923032-f40d94ef6160?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Main Expansion Blueprint",
         caption: "Hostel & Research Wing"
     },
     {
-        src: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&auto=format&fit=crop",
+        src: "/dbnss/infra/volly_ball.jpeg",
         alt: "Modern Interior Concept",
         caption: "Smart Common Areas"
     },
     {
-        src: "https://images.unsplash.com/photo-1503387762-592dee58c160?w=800&auto=format&fit=crop",
+        src: "https://images.unsplash.com/photo-1657979224146-77c99f339b31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNjaG9vbCUyMGdhcmRlbnxlbnwwfDB8MHx8fDI%3D",
         alt: "Eco-Friendly Architecture",
         caption: "Green Energy Integration"
     }

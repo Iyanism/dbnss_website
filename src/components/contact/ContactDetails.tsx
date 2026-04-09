@@ -7,17 +7,17 @@ const contactOptions = [
     {
         icon: Phone,
         title: "Call Us",
-        value: "+91 98765 43210",
+        value: "+91 9435609603 / 8133860177",
         desc: "Mon-Sat, 8:00 AM - 4:00 PM",
-        href: "tel:+919876543210",
+        href: "tel:+919435609603",
         color: "bg-blue-50 text-blue-600"
     },
     {
         icon: Mail,
         title: "Email Us",
-        value: "info@drbsaikiaschool.edu.in",
+        value: "dbns0308@gmail.com",
         desc: "Typically replies within 24 hours.",
-        href: "mailto:info@drbsaikiaschool.edu.in",
+        href: "mailto:dbns0308@gmail.com",
         color: "bg-indigo-50 text-indigo-600"
     },
     {

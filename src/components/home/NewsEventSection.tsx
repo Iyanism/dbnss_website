@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 
 const events = [
     {
+        date: "April 10, 2026",
+        title: "HSLC Exam Result Day",
+        desc: "The eagerly awaited HSLC examination results will be declared today. Students can check their results on the official SEBA website or through our school portal.",
+        category: "Achievement"
+    },
+    {
         date: "March 15, 2025",
         title: "Annual Sports Day 2025",
         desc: "A day filled with athletic spirit and remarkable performances by our students across various disciplines.",
@@ -15,12 +21,6 @@ const events = [
         title: "Inter-school Science Fair Winner",
         desc: "Congratulations to our class X team for securing first place in the Regional Science Innovation Fair.",
         category: "Achievement"
-    },
-    {
-        date: "Upcoming",
-        title: "Parent-Teacher Meeting",
-        desc: "The semester-end PTM is scheduled for April 5th. Invitations and time slots have been sent via email.",
-        category: "Meeting"
     },
 ];
 

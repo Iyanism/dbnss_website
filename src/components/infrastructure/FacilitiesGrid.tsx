@@ -6,40 +6,28 @@ import Image from "next/image";
 
 const facilities = [
     {
-        title: "Smart Classrooms",
+        title: "Classrooms",
         icon: Monitor,
-        desc: "Our classrooms are designed to be centers of interactive learning. Equipped with digital boards and ergonomic furniture, they provide a stimulating environment that makes learning engaging and effective.",
+        desc: "Our classrooms are designed to provide a conducive learning environment with proper seating, lighting, and ventilation. We are committed to upgrading them to smart digital classrooms soon with interactive boards and modern learning aids.",
         features: [
-            "Digital Interactive Boards",
-            "High-Speed Wi-Fi Connectivity",
-            "Ergonomic Furniture",
-            "Natural Lighting & Ventilation"
+            "Comfortable Seating Arrangement",
+            "Proper Lighting & Ventilation",
+            "Whiteboard Teaching Aids",
+            "Upgrading to Digital Smart Boards Soon"
         ],
-        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1000&auto=format&fit=crop"
+        image: "/hero_3.webp"
     },
     {
-        title: "The Digital Library",
+        title: "Library",
         icon: BookOpen,
-        desc: "A sanctuary for knowledge seekers, our library houses over 5,000 volumes across varied disciplines. The integrated e-learning zone provides access to global journals and digital resources.",
+        desc: "A sanctuary for knowledge seekers, our library houses a growing collection of books across varied disciplines. We are working towards integrating digital resources and e-learning capabilities to enhance the reading and research experience.",
         features: [
-            "5,000+ Physical Books",
-            "E-Learning Computing Zone",
-            "Quiet Reading Room",
-            "Newspaper & Periodical Section"
+            "Extensive Book Collection",
+            "Quiet Reading Environment",
+            "Reference & Study Materials",
+            "Digital Resources Coming Soon"
         ],
-        image: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1000&auto=format&fit=crop"
-    },
-    {
-        title: "Computer Laboratory",
-        icon: Wifi,
-        desc: "Designed for the digital age, our IT lab features high-performance workstations and specialized software for coding, design, and research, ensuring students stay ahead in the tech race.",
-        features: [
-            "High-Spec Workstations",
-            "Fiber-Optic Internet",
-            "Advanced Software Suites",
-            "IT Project Support Area"
-        ],
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1000&auto=format&fit=crop"
+        image: "/dbnss/facilities/library.png"
     },
     {
         title: "Sports & Athletics",
@@ -51,7 +39,7 @@ const facilities = [
             "Cricket Practice Nets",
             "Indoor Games Facilities"
         ],
-        image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1000&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1771257807779-a72e74deaa11?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
 ];
 

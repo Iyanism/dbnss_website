@@ -29,14 +29,14 @@ export default function DownloadableCurriculumSection() {
                                 <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mb-8 border border-white/20 shadow-xl shadow-blue-900/20">
                                     <Sparkles size={40} className="text-blue-200" />
                                 </div>
-                                <h3 className="text-blue-100 text-xs font-black uppercase tracking-[0.4em] mb-4">New Session 2025-26</h3>
+                                <h3 className="text-blue-100 text-xs font-black uppercase tracking-[0.4em] mb-4">New Session 2026-27</h3>
                                 <h4 className="text-4xl md:text-5xl font-black text-white leading-tight mb-8 tracking-tighter">
                                     DOWNLOAD THE <br />
                                     <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-200 to-white italic">PROSPECTUS.</span>
                                 </h4>
                                 <div className="flex items-center gap-3 text-white/50">
                                     <FileText size={18} />
-                                    <span className="text-[10px] font-bold uppercase tracking-widest">PDF format • 4.2 MB</span>
+                                    <span className="text-[10px] font-bold uppercase tracking-widest">ODT format • Official Document</span>
                                 </div>
                             </div>
 
@@ -49,7 +49,8 @@ export default function DownloadableCurriculumSection() {
 
                                     <div className="flex flex-col sm:flex-row gap-4">
                                         <Link
-                                            href="/downloads/prospectus-2025-26.pdf"
+                                            href="/dbnss/prospectus/other pages (1).odt"
+                                            download
                                             className="flex-1 bg-white text-blue-900 px-8 py-5 rounded-2xl font-black text-xs uppercase tracking-widest text-center hover:bg-slate-900 hover:text-white transition-all shadow-xl hover:shadow-2xl flex items-center justify-center gap-3 group/btn"
                                         >
                                             <Download size={18} className="group-hover/btn:-translate-y-1 transition-transform" />

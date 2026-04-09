@@ -48,7 +48,7 @@ export default function AdmissionBanner() {
                         <div className="flex flex-col items-center lg:items-end gap-6 shrink-0">
                             <div className="text-center lg:text-right">
                                 <div className="text-blue-200/70 text-sm font-bold uppercase tracking-widest mb-1">Application Deadline</div>
-                                <div className="text-3xl font-black text-white">March 31, 2026</div>
+                                <div className="text-3xl font-black text-white">April 11, 2026</div>
                             </div>
                             <Link
                                 href="/admissions/apply"

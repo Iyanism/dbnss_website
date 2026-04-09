@@ -41,7 +41,7 @@ export const heroSlides = [
 ];
 
 export const stats = [
-    { id: 1, value: "9+", label: "Years of Excellence", icon: Award },
+    { id: 1, value: "10+", label: "Years of Excellence", icon: Award },
     { id: 2, value: "2000+", label: "Students Enrolled", icon: Users },
     { id: 3, value: "100%", label: "Board Exam Results", icon: Target },
     { id: 4, value: "50+", label: "Qualified Faculty", icon: BookOpen },
@@ -81,7 +81,7 @@ export const faqs = [
 
 export const facultyMembers = [
     // a) High and Higher Secondary level (class 9, 10, 11 and 12)
-    { id: "vp", name: "Mr. Sanjib Kr. Baishya (Vice Principal)", subject: "Administration / Senior Section", qualification: "Principal / Vice Principal", experience: "N/A", classes: "9 - 12", image: "/dbnss/teachers/Teachers_Profiles/Sanjib_Kr._Baishya(Vice_Principal).webp", category: "Senior Section (9-12)" },
+    { id: "vp", name: "Mr. Sanjib Kr. Baishya", subject: "Administration", qualification: "MBA", experience: "N/A", classes: "9 - 12", image: "/dbnss/teachers/Teachers_Profiles/Sanjib_Kr._Baishya(Vice_Principal).webp", category: "Senior Section (9-12)" },
     { id: "s1", name: "Mr. Suman Das", subject: "Physics", qualification: "M.Sc. in Physics", experience: "8 Years", classes: "9 - 12", image: "/dbnss/teachers/Teachers_Profiles/Suman_Das.webp", category: "Senior Section (9-12)" },
     { id: "s2", name: "Mr. Kalidas Mandal", subject: "Chemistry", qualification: "M.Sc. in Chemistry", experience: "10 Years", classes: "9 - 12", image: "/dbnss/teachers/Teachers_Profiles/Kalidas_Mandal.webp", category: "Senior Section (9-12)" },
     { id: "s3", name: "Mr. Rajib Lochan Baishya", subject: "ECE / Technical", qualification: "Bachelor of Engineering (ECE)", experience: "10 Years", classes: "9 - 12", image: "/dbnss/teachers/Teachers_Profiles/Rajib_Lochan_Baishya.webp", category: "Senior Section (9-12)" },
@@ -136,61 +136,61 @@ export const toppers: Topper[] = [
         name: "Rehena Mallick",
         percentage: "84.6%",
         year: "2019",
-        image: "https://images.unsplash.com/photo-1519085185750-7407a73b9e68?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Rehena_Mallick.png"
     },
     {
         name: "Dibya Jyoti Pukan",
         percentage: "92%",
         year: "2022",
-        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Dibya_Jyoti_Pukan.png"
     },
     {
         name: "Sumi Pator",
         percentage: "79.6%",
         year: "2023",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Sumi_Pator.png"
     },
     {
         name: "Alimpa Medhi",
         percentage: "88.8%",
         year: "2023",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Alimpa_Medhi.png"
     },
     {
         name: "Anubha Marme",
         percentage: "88.2%",
         year: "2024",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Anubha_Marme.png"
     },
     {
         name: "Tina Moni Boro",
         percentage: "86.6%",
         year: "2024",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Tina_Moni_Boro.png"
     },
     {
         name: "Sibangee Bhattacharya",
         percentage: "86.2%",
         year: "2025",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Sibangee_Bhattacharya.png"
     },
     {
         name: "Momi Rahang",
         percentage: "88.6%",
         year: "2024",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
+        image: "/dbnss/result/Momi_Rahang.png"
     },
 ];
 
 export const prideStudents: PrideStudent[] = [
-    { name: "Praiselina R. Sangma", achievement: "MBBS (DMCH)", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop" },
-    { name: "Hrishikesh Talukdar", achievement: "B.Tech. (NIT Silchar)", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop" },
-    { name: "Dibya Jyoti Phukan", achievement: "B.Tech. (NIT Silchar)", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop" },
-    { name: "Anubha Marme", achievement: "MBBS (GMCH)", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=500&fit=crop" },
-    { name: "Sumi Pator", achievement: "MBBS (JMCH)", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop" },
-    { name: "Joel Rahang", achievement: "MBBS (KMCH)", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" },
-    { name: "Anupam Rabha", achievement: "B.Tech IIT (Dharwad)", image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=500&fit=crop" },
-    { name: "Purabi Swargiary", achievement: "BDS (GMCH)", image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=500&fit=crop" },
+    { name: "Praiselina R. Sangma", achievement: "MBBS (DMCH)", image: "/dbnss/result/Praiselina_R._Sangma.png" },
+    { name: "Hrishikesh Talukdar", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Hrishikesh_Talukdar.png" },
+    { name: "Dibya Jyoti Phukan", achievement: "B.Tech. (NIT Silchar)", image: "/dbnss/result/Dibya_Jyoti_Pukan.png" },
+    { name: "Anubha Marme", achievement: "MBBS (GMCH)", image: "/dbnss/result/Anubha_Marme.png" },
+    { name: "Sumi Pator", achievement: "MBBS (JMCH)", image: "/dbnss/result/Sumi_Pator.png" },
+    { name: "Joel Rahang", achievement: "MBBS (KMCH)", image: "/dbnss/result/Joel_Rahang.png" },
+    { name: "Anupam Rabha", achievement: "B.Tech IIT (Dharwad)", image: "/dbnss/result/Anupam_Rabha.png" },
+    { name: "Purabi Swargiary", achievement: "BDS (GMCH)", image: "/dbnss/result/Purabi_Swargiary.png" },
 ];
 
 export const rulesAndRegulations = [

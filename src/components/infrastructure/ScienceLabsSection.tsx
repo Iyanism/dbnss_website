@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Beaker, FlaskConical, Microchip, CheckCircle2 } from "lucide-react";
+import { Beaker, FlaskConical, Microscope, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 const labs = [
@@ -10,7 +10,7 @@ const labs = [
         icon: Beaker,
         desc: "Equipped with advanced apparatus for electricity, optics, and mechanics. Our lab provides students with a hands-on understanding of the fundamental principles of physics.",
         features: ["Optical Benches", "Sonometer & Resonators", "Electronic Testing Tools", "Capacitance Measurement"],
-        image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000&auto=format&fit=crop"
+        image: "/dbnss/facilities/physics_lab.jpeg"
     },
     {
         title: "Chemistry Laboratory",
@@ -21,10 +21,11 @@ const labs = [
     },
     {
         title: "Biology Laboratory",
-        icon: Microchip,
+        icon: Microscope,
         desc: "Exploring the marvels of life science through compound microscopes, human skeletal models, and high-quality specimens.",
         features: ["Compound Microscopes", "Permanent Specimens", "Human Skeleton Model", "Dissection Kits"],
-        image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1000&auto=format&fit=crop"
+        image: "/dbnss/facilities/biology.jpeg",
+        image2: "/dbnss/facilities/biology1.jpeg"
     }
 ];
 
@@ -52,6 +53,7 @@ export default function ScienceLabsSection() {
                 <div className="space-y-40">
                     {labs.map((lab, idx) => {
                         const isEven = idx % 2 === 0;
+                        const hasDualImages = 'image2' in lab;
                         return (
                             <div key={idx} className="grid lg:grid-cols-2 gap-16 lg:gap-32 items-center">
                                 {/* Image Column */}
@@ -63,21 +65,45 @@ export default function ScienceLabsSection() {
                                     className={`relative group ${!isEven ? 'lg:order-2' : ''}`}
                                 >
                                     <div className="absolute -inset-6 bg-blue-100/50 rounded-[3rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                                    <div className="relative aspect-[4/3] rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-2xl">
-                                        <Image
-                                            src={lab.image}
-                                            alt={lab.title}
-                                            fill
-                                            className="object-cover group-hover:scale-110 transition-transform duration-1000"
-                                        />
-                                        <div className="absolute inset-0 bg-linear-to-t from-slate-900/40 to-transparent" />
-                                        <div className="absolute bottom-8 left-8 right-8">
-                                            <div className="flex items-center gap-3 bg-white/20 backdrop-blur-md p-4 rounded-2xl w-fit text-white">
-                                                <lab.icon size={24} strokeWidth={1.5} />
-                                                <span className="text-xs font-black uppercase tracking-widest">{lab.title}</span>
+                                    
+                                    {hasDualImages ? (
+                                        <div className="grid grid-cols-2 gap-4">
+                                            <div className="relative aspect-[4/3] rounded-[2rem] overflow-hidden border border-slate-100 shadow-2xl">
+                                                <Image
+                                                    src={lab.image}
+                                                    alt={`${lab.title} - View 1`}
+                                                    fill
+                                                    className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent" />
+                                            </div>
+                                            <div className="relative aspect-[4/3] rounded-[2rem] overflow-hidden border border-slate-100 shadow-2xl">
+                                                <Image
+                                                    src={lab.image2!}
+                                                    alt={`${lab.title} - View 2`}
+                                                    fill
+                                                    className="object-cover group-hover:scale-105 transition-transform duration-1000"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent" />
                                             </div>
                                         </div>
-                                    </div>
+                                    ) : (
+                                        <div className="relative aspect-[4/3] rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-2xl">
+                                            <Image
+                                                src={lab.image}
+                                                alt={lab.title}
+                                                fill
+                                                className="object-cover group-hover:scale-110 transition-transform duration-1000"
+                                            />
+                                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent" />
+                                            <div className="absolute bottom-8 left-8 right-8">
+                                                <div className="flex items-center gap-3 bg-white/20 backdrop-blur-md p-4 rounded-2xl w-fit text-white">
+                                                    <lab.icon size={24} strokeWidth={1.5} />
+                                                    <span className="text-xs font-black uppercase tracking-widest">{lab.title}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                 </motion.div>
 
                                 {/* Content Column */}

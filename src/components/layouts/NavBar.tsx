@@ -82,13 +82,13 @@ export default function NavBar() {
         >
           <div className="container mx-auto px-6 md:px-12 flex justify-between items-center text-xs">
             <div className="flex items-center gap-6 font-bold">
-              <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
+              <a href="tel:+919435609603" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
                 <Phone size={12} className="text-blue-100" />
-                <span>+91 98765 43210</span>
+                <span>+91 9435609603 / 8133860177</span>
               </a>
-              <a href="mailto:info@drbsaikiaschool.edu.in" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
+              <a href="mailto:dbns0308@gmail.com" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
                 <Mail size={12} className="text-blue-100" />
-                <span>info@drbsaikiaschool.edu.in</span>
+                <span>dbns0308@gmail.com</span>
               </a>
             </div>
             <div className="hidden md:block text-blue-100 font-bold tracking-widest">

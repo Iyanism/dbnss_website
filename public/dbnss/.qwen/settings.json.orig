@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/pradeep/Dev/Projects/dbnss_website/src/components/home/**)"
+    ]
+  }
+}
