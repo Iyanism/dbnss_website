@@ -26,7 +26,7 @@ export default function HeritageSection() {
                         </p>
                         <div className="flex items-center gap-4 p-6 bg-blue-50 rounded-3xl border border-blue-100 italic text-blue-700 font-medium">
                             <Flag className="shrink-0" size={24} />
-                            &quot;Upholding the torch of knowledge since 2004.&quot;
+                            &quot;Upholding the torch of knowledge since 2016.&quot;
                         </div>
                     </motion.div>
 
@@ -34,7 +34,7 @@ export default function HeritageSection() {
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="relative aspect-video md:aspect-[4/3] rounded-[3rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(37,99,235,0.2)] border border-slate-100"
+                        className="relative aspect-video md:aspect-4/3 rounded-[3rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(37,99,235,0.2)] border border-slate-100"
                     >
                         <Image
                             src="/dbnss/flag/WhatsApp Image 2026-03-02 at 9.27.43 PM.jpeg"

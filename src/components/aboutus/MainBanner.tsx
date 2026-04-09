@@ -28,7 +28,7 @@ export default function MainBanner() {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <span className="inline-block px-4 py-1.5 rounded-full bg-blue-600/20 backdrop-blur-md border border-blue-400/30 text-white text-xs font-bold uppercase tracking-[0.3em] mb-6">
-                            Excellence Since 2004
+                            Excellence Since 2016
                         </span>
                         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9] tracking-tighter uppercase">
                             A LEGACY OF <br />

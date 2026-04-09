@@ -13,34 +13,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { motion } from "framer-motion";
-
-// Hero slide data
-const heroSlides = [
-  {
-    id: 1,
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop",
-    alt: "Students in classroom",
-    tagline: "Premier Education in Khetri",
-    title: "Best Senior Secondary Excellence from LKG to 12th",
-    description: "Nurturing future leaders since 2004 with a focus on academic rigor, character building, and comprehensive growth in Khetri, Assam.",
-  },
-  {
-    id: 2,
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop",
-    alt: "School campus",
-    tagline: "Specialized Streams",
-    title: "Shape Your Future with Arts and Science",
-    description: "Our dedicated faculty and modern laboratories provide the perfect environment for mastering both Arts and Science disciplines.",
-  },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop",
-    alt: "Sports activities",
-    tagline: "Holistic Development",
-    title: "A Glimpse Into a Brighter Tomorrow",
-    description: "From LKG foundations to Class 12 milestones, we ensure every student achieves their highest potential in Assam.",
-  },
-];
+import { heroSlides } from "@/lib/siteData";
 
 export default function HeroSection() {
   const [activeIndex, setActiveIndex] = useState(0);

@@ -39,10 +39,10 @@ export default function PrincipalSection() {
                                 transition={{ delay: 0.3 }}
                                 className="absolute bottom-6 right-6 left-12 sm:left-auto bg-white/90 backdrop-blur-xl p-6 rounded-3xl shadow-2xl border border-white/20 select-none"
                             >
-                                <h4 className="text-xl md:text-2xl font-black text-slate-900 leading-none mb-1">Dr. Arnab Saikia</h4>
+                                <h4 className="text-xl md:text-2xl font-black text-slate-900 leading-none mb-1">Mr. Chandra Dhar Baishya</h4>
                                 <div className="flex items-center gap-2">
                                     <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                                    <p className="text-[10px] font-black uppercase tracking-widest text-blue-600">Principal & Founder</p>
+                                    <p className="text-[10px] font-black uppercase tracking-widest text-blue-600">Principal</p>
                                 </div>
                             </motion.div>
                         </motion.div>

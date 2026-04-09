@@ -5,30 +5,30 @@ import { Building, GraduationCap, Trophy, Users } from "lucide-react";
 
 const timelineEvents = [
     {
-        year: "2004",
+        year: "2016",
         title: "FOUNDATION OF EXCELLENCE",
         description: "Established with a visionary goal to transform regional education in Khetri, honoring Dr. Bhabendra Nath Saikia's legacy.",
         icon: Building,
         color: "blue"
     },
     {
-        year: "2008",
+        year: "2018",
         title: "ACADEMIC EXPANSION",
         description: "Inaugurated the Higher Secondary wing with dedicated Science and Arts streams, setting a new benchmark for academic rigor.",
         icon: GraduationCap,
         color: "slate"
     },
     {
-        year: "2012",
+        year: "2021",
         title: "RECORD-BREAKING RESULTS",
         description: "Achieved the first 100% pass result in Board Exams, with numerous students securing top positions in the state.",
         icon: Trophy,
         color: "blue"
     },
     {
-        year: "2024",
-        title: "TWO DECADES OF IMPACT",
-        description: "Celebrating 20 years of nurturing over 5,000+ alumni who are now leading across various sectors globally.",
+        year: "2025",
+        title: "A DECADE OF IMPACT",
+        description: "Celebrating 9+ years of nurturing over 2,000+ alumni who are now leading across various sectors globally.",
         icon: Users,
         color: "slate"
     }
@@ -55,7 +55,7 @@ export default function HistorySection() {
                         <span className="text-blue-600 uppercase">THE JOURNEY.</span>
                     </h2>
                     <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                        A retrospective look at twenty years of dedication to sculpting the future of Assam&apos;s youth.
+                        A retrospective look at 9+ years of dedication to sculpting the future of Assam&apos;s youth.
                     </p>
                 </motion.div>
 
@@ -119,8 +119,8 @@ export default function HistorySection() {
                     <div className="absolute inset-0 bg-blue-600/10 mix-blend-soft-light" />
                     <div className="relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-12">
                         {[
-                            { label: "Years of Legacy", value: "20+" },
-                            { label: "Successful Alumni", value: "5K+" },
+                            { label: "Years of Legacy", value: "9+" },
+                            { label: "Successful Alumni", value: "2K+" },
                             { label: "Expert Faculty", value: "60+" },
                             { label: "Arts/Science Streams", value: "2" }
                         ].map((stat, idx) => (

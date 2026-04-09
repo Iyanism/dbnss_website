@@ -74,7 +74,7 @@ export default function Footer() {
                         </div>
 
                         <p className="text-slate-600 mb-8 leading-relaxed text-sm font-medium pr-4">
-                            Providing unparalleled educational excellence in Khetri since 2004.
+                            Providing unparalleled educational excellence in Khetri since 2016.
                             We specialize in LKG to Class 12 education with dedicated Arts and Science streams,
                             fostering a legacy of academic brilliance.
                         </p>

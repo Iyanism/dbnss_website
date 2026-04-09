@@ -4,33 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Award, BookOpen, Users, Target, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
-// Statistics data
-const stats = [
-    {
-        id: 1,
-        value: "20+",
-        label: "Years of Excellence",
-        icon: Award,
-    },
-    {
-        id: 2,
-        value: "2000+",
-        label: "Students Enrolled",
-        icon: Users,
-    },
-    {
-        id: 3,
-        value: "100%",
-        label: "Board Exam Results",
-        icon: Target,
-    },
-    {
-        id: 4,
-        value: "50+",
-        label: "Qualified Faculty",
-        icon: BookOpen,
-    },
-];
+import { stats } from "@/lib/siteData";
 
 const features = [
     "Classes from LKG to 12th Standard",
@@ -68,7 +42,7 @@ export default function AboutSection() {
                         {/* Floating Experience Badge */}
                         <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-blue-50 z-20 hidden md:block group-hover:-translate-y-2 transition-transform">
                             <div className="flex items-center gap-4">
-                                <div className="text-4xl font-black text-blue-600">20+</div>
+                                <div className="text-4xl font-black text-blue-600">9+</div>
                                 <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest leading-tight">
                                     Years of <br /> Excellence
                                 </div>
@@ -94,7 +68,7 @@ export default function AboutSection() {
 
                             <div className="space-y-6 text-slate-600 font-medium leading-relaxed mb-10">
                                 <p className="text-lg text-slate-800">
-                                    Established in 2004, Dr. Bhabendra Nath Saikia Senior Secondary School is the premier institution for quality education from
+                                    Established in 2016, Dr. Bhabendra Nath Saikia Senior Secondary School is the premier institution for quality education from
                                     <span className="text-blue-700 font-bold"> LKG to Class 12</span>.
                                 </p>
                                 <p>

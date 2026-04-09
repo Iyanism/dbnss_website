@@ -91,7 +91,7 @@ export default function CoCurricularSection() {
                                     className={`relative group ${!isEven ? 'lg:order-2' : ''}`}
                                 >
                                     <div className="absolute -inset-6 bg-blue-100/50 rounded-[3rem] blur-2xl group-hover:bg-blue-100 transition-all duration-700" />
-                                    <div className="relative aspect-[4/3] rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-2xl">
+                                    <div className="relative aspect-4/3 rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-2xl">
                                         <Image
                                             src={activity.image}
                                             alt={activity.title}
@@ -135,7 +135,7 @@ export default function CoCurricularSection() {
                                     <div className="pt-8 flex items-center gap-12">
                                         <div className="space-y-1">
                                             <div className="text-2xl font-black text-blue-600">Established</div>
-                                            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">Since 2004</div>
+                                            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">Since 2016</div>
                                         </div>
                                         <div className="w-px h-12 bg-slate-100" />
                                         <div className="space-y-1">

@@ -5,6 +5,8 @@ import ResultGrid from "@/components/results/ResultGrid";
 import ToppersSection from "@/components/results/ToppersSection";
 import FelicitationGallery from "@/components/results/FelicitationGallery";
 
+import ResultsSummary from "@/components/results/ResultsSummary";
+
 export const metadata: Metadata = {
     title: "Board Results & Academic Achievements | Dr. Bhabendra Nath Saikia School",
     description: "Explore the HSLC and HS results of Dr. Bhabendra Nath Saikia Senior Secondary School. Our students consistently excel in board examinations, maintaining high pass rates and top ranks.",
@@ -16,6 +18,7 @@ export default function ResultsPage() {
         <main className="min-h-screen bg-white">
             <MainBanner />
             <ResultsIntro />
+            <ResultsSummary />
             <ResultGrid />
             <ToppersSection />
             <FelicitationGallery />

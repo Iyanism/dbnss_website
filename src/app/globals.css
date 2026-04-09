@@ -123,6 +123,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Better focus states for keyboard-only users */
+  :focus-visible {
+    @apply outline-2 outline-blue-600 outline-offset-4 ring-2 ring-blue-600/20 rounded-sm transition-all;
+  }
 }
 
 /* Add to your globals.css */

@@ -4,32 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Minus, HelpCircle } from "lucide-react";
 
-const faqs = [
-    {
-        q: "What is the admission procedure for the new session?",
-        a: "The admission process involves filling out an online application form, followed by an interaction/entrance test depending on the grade. Detailed steps are available on our Admissions page."
-    },
-    {
-        q: "What are the school timings for Junior and Senior sections?",
-        a: "Junior section (LKG to Class V) operates from 8:30 AM to 1:30 PM. Senior section (Class VI to XII) operates from 8:00 AM to 2:30 PM."
-    },
-    {
-        q: "Does the school provide transport facilities?",
-        a: "Yes, we have a fleet of safe and well-maintained buses covering major routes across the city. Transport fees are calculated based on distance."
-    },
-    {
-        q: "What are the stream options available in Senior Secondary?",
-        a: "We offer Science (PCM/PCB) and Arts streams with various elective subjects including Computer Science, Economics, and Fine Arts."
-    },
-    {
-        q: "Is there any scholarship or fee concession available?",
-        a: "Yes, merit-based scholarships are available for outstanding students. Need-based financial assistance can be applied for through the school office."
-    },
-    {
-        q: "What extracurricular activities are offered?",
-        a: "We offer a wide range of activities including sports, music, dance, art, robotics, debate, and various club activities."
-    },
-];
+import { faqs } from "@/lib/siteData";
 
 export default function FAQSection() {
     const [openIdx, setOpenIdx] = useState<number | null>(0);

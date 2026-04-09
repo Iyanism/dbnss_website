@@ -1,113 +1,103 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star, Quote, Award } from "lucide-react";
+import { GraduationCap, Award } from "lucide-react";
 import Image from "next/image";
 
-const toppers = [
-    {
-        name: "Abhinav Sharma",
-        rank: "1st Rank (HS Science)",
-        percentage: "98.2%",
-        year: "2024",
-        achievement: "State Topper in Chemistry & Physics",
-        image: "https://images.unsplash.com/photo-1519085185750-7407a73b9e68?w=800&auto=format&fit=crop"
-    },
-    {
-        name: "Priya Das",
-        rank: "3rd Rank (HSLC)",
-        percentage: "97.5%",
-        year: "2024",
-        achievement: "Highest Marks in Mathematics & Science",
-        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop"
-    },
-    {
-        name: "Rohan Kalita",
-        rank: "1st Rank (HS Arts)",
-        percentage: "96.4%",
-        year: "2023",
-        achievement: "Exceptional Performance in English & Political Science",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop"
-    }
-];
+import { toppers, prideStudents, type Topper, type PrideStudent } from "@/lib/siteData";
 
 export default function ToppersSection() {
     return (
-        <section className="py-32 bg-white overflow-hidden">
-            <div className="container mx-auto px-6 md:px-12">
-                <div className="mb-24 text-center space-y-4">
+        <section className="py-20 md:py-32 bg-slate-50 overflow-hidden">
+            <div className="container mx-auto px-4 md:px-12 max-w-7xl">
+                {/* Header Section */}
+                <div className="mb-16 md:mb-24 text-center space-y-4">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
-                        <span className="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] block">Hall of Fame</span>
-                        <h2 className="text-4xl md:text-5xl lg:text-7xl font-black text-slate-900 leading-[0.9] tracking-tighter uppercase mb-8">
-                            CELEBRATING OUR <br />
-                            <span className="text-blue-600">BRIGHTEST MINDS.</span>
+                        <span className="text-blue-600 font-black uppercase tracking-[0.3em] text-[10px] block mb-2">Academic Excellence</span>
+                        <h2 className="text-4xl md:text-5xl lg:text-7xl font-black text-slate-900 leading-[0.9] tracking-tighter uppercase">
+                            HALL OF <span className="text-blue-600">FAME.</span>
                         </h2>
                     </motion.div>
                 </div>
 
-                <div className="grid lg:grid-cols-3 gap-12">
-                    {toppers.map((topper, idx) => (
-                        <motion.div
-                            key={idx}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: idx * 0.1, duration: 0.6 }}
-                            className="group relative"
-                        >
-                            {/* Decorative Background Card */}
-                            <div className="absolute inset-0 bg-blue-50 rounded-[3rem] translate-y-8 group-hover:translate-y-4 transition-transform duration-500 opacity-0 group-hover:opacity-100" />
-
-                            <div className="relative p-10 bg-white rounded-[3rem] border border-slate-100 shadow-2xl space-y-8 hover:border-blue-200 transition-all duration-500">
-                                {/* Quote Icon */}
-                                <div className="absolute top-10 right-10 text-slate-50 opacity-10 group-hover:text-blue-100 transition-colors">
-                                    <Quote size={80} fill="currentColor" stroke="none" />
-                                </div>
-
-                                {/* Student Image */}
-                                <div className="relative w-32 h-32 rounded-[2rem] overflow-hidden border-4 border-white shadow-xl">
+                {/* Section 1: Our Centre Toppers */}
+                <div className="mb-24">
+                    <div className="flex items-center gap-3 mb-12">
+                        <Award className="text-blue-600 w-8 h-8" />
+                        <h3 className="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight">Our Centre Toppers</h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+                        {toppers.map((topper: Topper, idx: number) => (
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, scale: 0.95 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.05, duration: 0.4 }}
+                                className="bg-white p-3 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col items-center text-center space-y-3 md:space-y-4"
+                            >
+                                <div className="relative w-full aspect-4/5 rounded-xl overflow-hidden border-2 border-slate-50 shadow-inner">
                                     <Image
                                         src={topper.image}
                                         alt={topper.name}
                                         fill
-                                        className="object-cover group-hover:scale-110 transition-transform duration-700"
+                                        className="object-cover"
                                     />
-                                    <div className="absolute inset-0 bg-blue-600/10 mix-blend-multiply" />
                                 </div>
-
-                                {/* Info */}
-                                <div className="space-y-4 relative z-10">
-                                    <div className="flex items-center gap-2 text-blue-600">
-                                        <Award size={18} strokeWidth={2} />
-                                        <span className="text-[10px] font-black uppercase tracking-[0.2em]">{topper.rank}</span>
+                                <div className="space-y-1">
+                                    <h4 className="text-sm md:text-lg font-black text-slate-900 uppercase leading-none">{topper.name}</h4>
+                                    <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-3">
+                                        <span className="text-blue-600 font-black text-lg md:text-xl">{topper.percentage}</span>
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{topper.year}</span>
                                     </div>
-                                    <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">
-                                        {topper.name}
-                                    </h3>
-
-                                    <div className="p-6 rounded-2xl bg-slate-50 space-y-2 group-hover:bg-blue-600 transition-colors duration-500">
-                                        <div className="text-3xl font-black text-blue-600 group-hover:text-white transition-colors">{topper.percentage}</div>
-                                        <div className="text-[10px] font-bold text-slate-400 group-hover:text-white/60 uppercase tracking-widest uppercase transition-colors">Batch of {topper.year}</div>
-                                    </div>
-
-                                    <p className="text-slate-500 text-xs font-medium leading-relaxed italic">
-                                        &quot;{topper.achievement}&quot;
-                                    </p>
                                 </div>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
 
-                                {/* Star Badges */}
-                                <div className="pt-4 flex gap-2">
-                                    {[1, 2, 3].map((star) => (
-                                        <Star key={star} size={14} className="text-blue-500 fill-blue-500" />
-                                    ))}
+                {/* Section 2: Our Pride */}
+                <div>
+                    <div className="mb-12">
+                        <div className="flex items-center gap-3 mb-4">
+                            <GraduationCap className="text-blue-600 w-8 h-8" />
+                            <h3 className="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight">Our Pride</h3>
+                        </div>
+                        <p className="text-slate-600 font-medium text-sm md:text-base max-w-2xl leading-relaxed">
+                            Students who made us proud by cracking JEE / NEET and pursuing their degrees in Prestigious institutions of Assam and India.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+                        {prideStudents.map((student: PrideStudent, idx: number) => (
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, scale: 0.95 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.05, duration: 0.4 }}
+                                className="bg-white p-3 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col items-center text-center space-y-3 md:space-y-4"
+                            >
+                                <div className="relative w-full aspect-4/5 rounded-xl overflow-hidden border-2 border-slate-50 shadow-inner bg-slate-100">
+                                    <Image
+                                        src={student.image}
+                                        alt={student.name}
+                                        fill
+                                        className="object-cover"
+                                    />
                                 </div>
-                            </div>
-                        </motion.div>
-                    ))}
+                                <div className="space-y-1">
+                                    <h4 className="text-sm md:text-lg font-black text-slate-900 uppercase leading-tight">{student.name}</h4>
+                                    <p className="text-[10px] md:text-xs font-bold text-blue-600 uppercase tracking-widest">{student.achievement}</p>
+                                </div>
+                            </motion.div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

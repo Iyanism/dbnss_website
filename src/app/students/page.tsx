@@ -5,6 +5,9 @@ import AcademicCalendar from "@/components/students/AcademicCalendar";
 import CoCurricularSection from "@/components/students/CoCurricularSection";
 import StudentsIntro from "@/components/students/StudentsIntro";
 
+import RulesSection from "@/components/students/RulesSection";
+import EndeavourSection from "@/components/students/EndeavourSection";
+
 export const metadata: Metadata = {
     title: "Student Hub | Academic Resources & Syllabus | Dr. Bhabendra Nath Saikia School",
     description: "Access academic syllabi, time tables, holiday lists, and the academic calendar for Dr. Bhabendra Nath Saikia Senior Secondary School. Explore our vibrant co-curricular activities and campus life.",
@@ -16,8 +19,10 @@ export default function StudentsPage() {
         <main className="min-h-screen bg-white">
             <MainBanner />
             <StudentsIntro />
+            <EndeavourSection />
             <ResourceSection />
             <AcademicCalendar />
+            <RulesSection />
             <CoCurricularSection />
         </main>
     );

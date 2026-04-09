@@ -1,0 +1,85 @@
+Teacher Image Audit Report - Dr. Bhabendra Nath Saikia School Website
+
+1. TEACHERS WITHOUT IMAGES (Using Placeholders):
+==============================================
+
+Section A: High and Higher Secondary level (Class 9-12)
+- Mr. Rajib Lochan Baishya (Technical/ECE)
+- Mrs. Rekha Baishya (Education)
+- Mr. Paran Jyoti Mahanta (Tourism & Hospitality)
+- Miss Anita Das (History)
+- Mr. Hiteswar Bordoloi (Retired Lab Assistant)
+
+Section B: Nursery, L.P. and M.E. level (Nursery-8)
+- Miss Merina Sangma (M.Sc., B.Ed.)
+- Miss Pirbi Englengpi (M.Sc.)
+- Mrs. Parinita Borah (M.A.)
+- Miss Priya Deb (B.A.)
+- Mr. Kitdor Khongdup (B.Com.)
+- Miss Himashree Bora (B.A.)
+
+Section C: Non-Teaching Staff
+- Joya Phangchoo
+- Geeta Das
+- Kamal Tumung
+
+-----------------------------------------------------------
+
+2. EXTRA TEACHER DATA CHECK:
+===========================
+- ALL teachers in the provided list are present in siteData.ts.
+- NO extra teachers were found beyond the provided list.
+- Verification: 16 Senior Staff, 16 Junior Staff, and 3 Non-Teaching Staff total 35 members in both the list and the codebase.
+
+3. NOTE ON ASSIGNED IMAGES:
+=========================
+- 21 total images were found on disk and all have been correctly assigned to their respective profiles in siteData.ts.
+- Minor spelling variations handled:
+  * Shaswati Kashyap (List) -> Shaswati_Kashyan.jpeg (File)
+  * Jahnobi Saikia (List) -> Jahnovi_Saikia.jpeg (File)
+
+-----------------------------------------------------------
+
+4. FULL TEACHER & SUBJECT LIST:
+==============================
+
+Section A: Senior Section (9-12)
+- Mr. Suman Das (Physics)
+- Mr. Kalidas Mandal (Chemistry)
+- Mr. Rajib Lochan Baishya (ECE / Technical)
+- Mr. Himangshu Sharma (Botany)
+- Miss Jonali Sharma (Assamese)
+- Mrs. Chandana Bhumij (Hindi)
+- Mrs. Rekha Baishya (Education)
+- Miss Himadri Das (Anthropology)
+- Mr. Guneswar Daimary (Political Science)
+- Miss Shaswati Kashyap (Geography)
+- Miss Meerlek Ronghang (English)
+- Mr. Paran Jyoti Mahanta (Tourism & Hospitality)
+- Miss Anita Das (History)
+- Mr. Khanin Das (English)
+- Miss Priya Borkataki (Mathematics)
+- Mr. Hiteswar Bordoloi (Physics Lab Assistant)
+
+Section B: Junior Section (Nursery-8)
+- Miss Merina Sangma (General)
+- Miss Pirbi Englengpi (Science)
+- Mrs. Parinita Borah (General)
+- Miss Nibedita Rongpee (General)
+- Miss Jilpa Injal (Science)
+- Miss Jahnobi Saikia (Science)
+- Miss Dipika Chetri (General)
+- Miss Anuska Kashyap (General)
+- Mr. Suman Sikdar (Electronics)
+- Miss Kaberi Baruah (General)
+- Miss Tulika Deka (General)
+- Miss Himadri Dey (General)
+- Miss Priya Deb (General)
+- Mr. Kitdor Khongdup (Commerce / General)
+- Miss Himashree Bora (General)
+- Mr. Rupan Deka (Arts / Drawing)
+
+Section C: Non-Teaching Staff
+- Joya Phangchoo (Support Staff)
+- Geeta Das (Support Staff)
+- Kamal Tumung (Support Staff)
