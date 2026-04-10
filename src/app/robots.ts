@@ -1,12 +1,14 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
+  const baseUrl = 'https://dbnss.in'
+
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/private/',
     },
-    sitemap: 'https://dbnss-school.edu.in/sitemap.xml',
+    sitemap: `${baseUrl}/sitemap.xml`,
   }
 }
+
