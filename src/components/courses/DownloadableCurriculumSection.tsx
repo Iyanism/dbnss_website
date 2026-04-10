@@ -36,7 +36,7 @@ export default function DownloadableCurriculumSection() {
                                 </h4>
                                 <div className="flex items-center gap-3 text-white/50">
                                     <FileText size={18} />
-                                    <span className="text-[10px] font-bold uppercase tracking-widest">ODT format • Official Document</span>
+                                    <span className="text-[10px] font-bold uppercase tracking-widest">PDF format • Official Prospectus</span>
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ export default function DownloadableCurriculumSection() {
 
                                     <div className="flex flex-col sm:flex-row gap-4">
                                         <Link
-                                            href="/dbnss/prospectus/other pages (1).odt"
+                                            href="/dbnss/prospectus/prospectus_2026.pdf"
                                             download
                                             className="flex-1 bg-white text-blue-900 px-8 py-5 rounded-2xl font-black text-xs uppercase tracking-widest text-center hover:bg-slate-900 hover:text-white transition-all shadow-xl hover:shadow-2xl flex items-center justify-center gap-3 group/btn"
                                         >
