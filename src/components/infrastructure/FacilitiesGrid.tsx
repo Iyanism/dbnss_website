@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Monitor, BookOpen, Dumbbell, Wifi, CheckCircle2 } from "lucide-react";
+import { Monitor, BookOpen, Dumbbell, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 const facilities = [

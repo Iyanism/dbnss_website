@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trophy, Users, Palette, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { Trophy, Palette, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 const activities = [

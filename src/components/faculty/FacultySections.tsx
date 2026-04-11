@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { GraduationCap, BookOpen, User, Search, Filter } from "lucide-react";
+import { GraduationCap, BookOpen, User, Search } from "lucide-react";
 import { facultyMembers } from "@/lib/siteData";
 
 interface Teacher {

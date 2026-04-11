@@ -4,7 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Award, Mail, Phone } from "lucide-react";
 
-const leadershipTeam: any[] = [];
+interface Leader {
+    image: string;
+    name: string;
+    experience: string;
+    title: string;
+    description: string;
+    email: string;
+    phone: string;
+}
+
+const leadershipTeam: Leader[] = [];
 
 export default function LeadershipSection() {
     return (

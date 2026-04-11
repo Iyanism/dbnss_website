@@ -29,7 +29,7 @@ export default function EndeavourSection() {
                         </p>
                         <div className="p-8 rounded-[2.5rem] bg-slate-900 text-white relative overflow-hidden">
                             <div className="relative z-10">
-                                <h4 className="text-xl font-black uppercase mb-4 tracking-tight">"Learn by Doing"</h4>
+                                <h4 className="text-xl font-black uppercase mb-4 tracking-tight">&ldquo;Learn by Doing&rdquo;</h4>
                                 <p className="text-slate-400 text-sm leading-relaxed">
                                     Our core pedagogy revolves around experiential learning, ensuring that knowledge is not just memorized but deeply understood and applied.
                                 </p>
