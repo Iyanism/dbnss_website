@@ -8,11 +8,11 @@ export default function MainBanner() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image with optimized loading */}
             <Image
-                src="https://plus.unsplash.com/premium_photo-1663126316750-473850988047?auto=format&blend=000000&blend-alpha=10&blend-mode=normal&blend-w=1&crop=faces%2Cedges&fit=crop&h=630&ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzAyODEyNjA2fA&ixlib=rb-4.0.3&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&mark-align=top%2Cleft&mark-pad=50&mark-w=64&q=60&w=1200"
+                src="/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.55.43 PM (1).webp"
                 alt="Dr. Bhabendra Nath Saikia School Campus"
                 fill
                 priority
-                className="object-cover scale-105"
+                className="object-cover scale-105 object-top"
                 sizes="100vw"
             />
 

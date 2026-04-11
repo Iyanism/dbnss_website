@@ -2,12 +2,11 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Award } from "lucide-react";
 
 const felicitationImages = [
     "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.52.28 PM.webp",
     "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.52.29 PM.webp",
-    "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.53.33 PM.webp",
+    "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.53.33 PM_changed.webp",
     "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.55.44 PM.webp",
     "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.54.20 PM.webp",
     "/dbnss/Felicitation of centre toppers/WhatsApp Image 2026-03-02 at 9.55.43 PM.webp",

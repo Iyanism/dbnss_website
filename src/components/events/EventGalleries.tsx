@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { TreePine, Microscope, Globe, Heart, Trophy, UserRound, Star } from "lucide-react";
+import { TreePine, Microscope, Globe, Trophy, UserRound, Star } from "lucide-react";
 
 const allEvents = [
     {

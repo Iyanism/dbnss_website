@@ -51,7 +51,7 @@ export default function AdmissionBanner() {
                                 <div className="text-3xl font-black text-white">April 11, 2026</div>
                             </div>
                             <Link
-                                href="/admissions/apply"
+                                href="/admissions"
                                 className="group bg-white text-blue-900 hover:bg-blue-50 px-12 py-5 rounded-2xl font-black transition-all duration-300 flex items-center gap-3 shadow-2xl hover:shadow-white/10 hover:-translate-y-1"
                             >
                                 Apply Now

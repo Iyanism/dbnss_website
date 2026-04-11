@@ -22,7 +22,7 @@ const batches = [
         year: "2020",
         images: [
             "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.45 PM.webp",
-            "/dbnss/2020_batch/WhatsApp Image 2026-03-02 at 9.17.46 PM.webp"
+            "/dbnss/2020_batch/2020_1.webp"
         ]
     },
     {

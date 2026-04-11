@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight, BookOpen, Link2Icon } from "lucide-react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { motion } from "framer-motion";
 import { heroSlides } from "@/lib/siteData";
+import Link from "next/link";
 
 export default function HeroSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -97,16 +98,18 @@ export default function HeroSection() {
                       {slide.description}
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 md:gap-5">
-                      <button
+                      <Link
+                      href={"/admissions"}
                         className="group bg-blue-600 hover:bg-blue-700 text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_10px_30px_-10px_rgba(37,99,235,0.5)]"
                       >
                         Admissions Open <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                      </button>
-                      <button
+                      </Link>
+                      <Link
+                      href={"/courses"}
                         className="group bg-white/10 hover:bg-white/20 backdrop-blur-xl text-white border border-white/40 px-8 md:px-10 py-4 md:py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] md:text-xs transition-all duration-300 flex items-center justify-center gap-3 hover:border-white/60"
                       >
                         Explore Courses <BookOpen size={18} className="group-hover:scale-110 transition-transform text-blue-400" />
-                      </button>
+                      </Link>
                     </div>
                   </motion.div>
                 </div>

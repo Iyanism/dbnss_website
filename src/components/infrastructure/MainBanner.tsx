@@ -8,7 +8,7 @@ export default function InfrastructureMainBanner() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image */}
             <Image
-                src="https://images.unsplash.com/photo-1541829070764-84a7d30dee62?w=1920&auto=format&fit=crop"
+                src="/dbnss/infra/volly_ball.webp"
                 alt="Modern School Infrastructure"
                 fill
                 priority

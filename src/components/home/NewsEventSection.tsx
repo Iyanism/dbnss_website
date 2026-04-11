@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Calendar } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
 const events = [
@@ -77,15 +77,6 @@ export default function NewsEventsSection() {
                             <p className="text-slate-600 text-sm leading-relaxed mb-6">
                                 {event.desc}
                             </p>
-
-                            {/* Read More Link */}
-                            <a
-                                href="#"
-                                className="inline-flex items-center gap-2 text-blue-600 font-medium text-sm hover:text-blue-700 transition-colors"
-                            >
-                                <span>Read more</span>
-                                <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-                            </a>
 
                             {/* Bottom Accent */}
                             <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-100 rounded-b-2xl overflow-hidden">

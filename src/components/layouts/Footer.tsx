@@ -26,12 +26,14 @@ const quickLinks = [
     { label: "Admissions 2026", href: "/admissions" },
 ];
 
-
+// Your exact school coordinates
+const schoolLat = 26.116807113703732;
+const schoolLng = 92.07807309689008;
 
 const contactInfo = [
     { icon: Phone, text: "+91 9435609603 / 8133860177", href: "tel:+919435609603" },
     { icon: Mail, text: "dbns0308@gmail.com", href: "mailto:dbns0308@gmail.com" },
-    { icon: MapPin, text: "Khetri, Kamrup (M), Assam - 782403", href: "https://maps.google.com/?q=Khetri,Assam" },
+    { icon: MapPin, text: "Khetri, Kamrup (M), Assam - 782403", href: `https://www.google.com/maps/place/${schoolLat},${schoolLng}` },
 ];
 
 const socialLinks = [
@@ -43,6 +45,9 @@ const socialLinks = [
 ];
 
 export default function Footer() {
+    // Updated embed URL with exact coordinates
+    const embedMapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.123456789!2d${schoolLng}!3d${schoolLat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${schoolLat}%2C${schoolLng}!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin`;
+
     return (
         <footer className="bg-linear-to-b from-white to-blue-50/30 border-t border-blue-100 overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 pt-20 pb-10">
@@ -60,7 +65,7 @@ export default function Footer() {
                                     src="/school-logo.webp"
                                     alt="DBNSS Logo"
                                     fill
-                                    className=""
+                                    className="object-contain"
                                 />
                             </div>
                             <div>
@@ -132,7 +137,7 @@ export default function Footer() {
                         <ul className="space-y-6">
                             {contactInfo.map((item, i) => (
                                 <li key={i} className="flex gap-4 items-start">
-                                    <a href={item.href} className="flex gap-4 group">
+                                    <a href={item.href} className="flex gap-4 group" target="_blank" rel="noopener noreferrer">
                                         <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 shrink-0 shadow-sm border border-blue-100/50 group-hover:bg-blue-600 group-hover:text-white transition-all">
                                             <item.icon size={18} />
                                         </div>
@@ -159,18 +164,19 @@ export default function Footer() {
                         <div className="relative group rounded-2xl overflow-hidden border border-slate-200 shadow-lg">
                             <div className="aspect-video bg-slate-100 flex items-center justify-center overflow-hidden">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114806.10659678703!2d91.70844968439992!3d26.144713523536473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a287f9133bf%3A0x5398c3cfab88396e!2sKhetri%2C%20Assam!5e0!3m2!1sen!2sin!4v1710848493345!5m2!1sen!2sin"
+                                    src={embedMapUrl}
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}
                                     allowFullScreen
                                     loading="lazy"
                                     className="grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                                    title="Dr. Bhabendra Nath Saikia School Location"
                                 />
                             </div>
                             <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-blue-600/0 transition-colors pointer-events-none" />
                             <a
-                                href="https://maps.google.com/?q=Khetri,Assam"
+                                href={`https://www.google.com/maps/place/${schoolLat},${schoolLng}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="absolute bottom-4 left-4 right-4 bg-white py-3 rounded-xl text-center text-xs font-black text-blue-600 shadow-xl opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300"

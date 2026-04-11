@@ -18,9 +18,9 @@ export default function ResultsPage() {
         <main className="min-h-screen bg-white">
             <MainBanner />
             <ResultsIntro />
+            <ToppersSection />
             <ResultsSummary />
             <ResultGrid />
-            <ToppersSection />
             <FelicitationGallery />
         </main>
     );

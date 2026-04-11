@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Award, BookOpen, Users, Target, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 import { stats } from "@/lib/siteData";
+import Link from "next/link";
 
 const features = [
     "Classes from LKG to 12th Standard",
@@ -87,14 +88,13 @@ export default function AboutSection() {
                                 </ul>
                             </div>
 
-                            <motion.button
-                                whileHover={{ scale: 1.02, x: 5 }}
-                                whileTap={{ scale: 0.98 }}
+                            <Link
+                                href={"/aboutus"}
                                 className="group inline-flex items-center gap-3 text-white font-black px-8 py-4 bg-blue-600 rounded-xl shadow-xl hover:bg-slate-900 transition-all duration-300 uppercase text-xs tracking-widest"
                             >
                                 <span>Explore Our History</span>
                                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                            </motion.button>
+                            </Link>
                         </motion.div>
 
                         {/* Statistics Grid Mini */}

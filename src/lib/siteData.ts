@@ -1,4 +1,4 @@
-import { GraduationCap, History, Medal, User, Award, BookOpen, Target, Users } from "lucide-react";
+import { Award, BookOpen, Target, Users } from "lucide-react";
 
 export const NAVLINKS = [
     { id: 1, label: "About Us", href: "/aboutus" },

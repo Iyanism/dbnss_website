@@ -8,7 +8,7 @@ export default function StudentsMainBanner() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image */}
             <Image
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1666198259234-f7033c78b94e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Students collaborating - Academic Resources"
                 fill
                 priority
