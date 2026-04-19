@@ -105,7 +105,6 @@ export const facultyMembers = [
     { id: "j6", name: "Miss Jahnobi Saikia", subject: "Science", qualification: "B.Sc., B.Ed.", experience: "1 Year", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Jahnovi_Saikia.webp", category: "Junior Section (Nursery-8)" },
     { id: "j7", name: "Miss Dipika Chetri", subject: "General", qualification: "B.Sc., Pursuing M.A.", experience: "2 Years", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Dipika_Chetri.webp", category: "Junior Section (Nursery-8)" },
     { id: "j8", name: "Miss Anuska Kashyap", subject: "General", qualification: "Pursuing M.A.", experience: "1 Year", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Anuska_kashyap.webp", category: "Junior Section (Nursery-8)" },
-    { id: "j9", name: "Mr. Suman Sikdar", subject: "Electronics", qualification: "M.Sc. in Electronics", experience: "3 Years", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Suman_Sikdar.webp", category: "Junior Section (Nursery-8)" },
     { id: "j10", name: "Miss Kaberi Baruah", subject: "General", qualification: "M.A.", experience: "2 Years", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Kaberi_Baruah.webp", category: "Junior Section (Nursery-8)" },
     { id: "j11", name: "Miss Tulika Deka", subject: "General", qualification: "M.A.", experience: "1 Year", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Tulika_Deka.webp", category: "Junior Section (Nursery-8)" },
     { id: "j12", name: "Miss Himadri Dey", subject: "General", qualification: "B.A.", experience: "1 Year", classes: "Nursery - 8", image: "/dbnss/teachers/Teachers_Profiles/Himadri_Dey.webp", category: "Junior Section (Nursery-8)" },
@@ -133,49 +132,49 @@ export interface PrideStudent {
 
 export const toppers: Topper[] = [
     {
-        name: "Rehena Mallick",
+        name: "Rehena Mallick(Science)",
         percentage: "84.6%",
         year: "2019",
         image: "/dbnss/result/Rehena_Mallick.webp"
     },
     {
-        name: "Dibya Jyoti Pukan",
+        name: "Dibya Jyoti Pukan(Science)",
         percentage: "92%",
         year: "2022",
         image: "/dbnss/result/Dibya_Jyoti_Pukan.webp"
     },
     {
-        name: "Sumi Pator",
+        name: "Sumi Pator(Science)",
         percentage: "79.6%",
         year: "2023",
         image: "/dbnss/result/Sumi_Pator.webp"
     },
     {
-        name: "Alimpa Medhi",
+        name: "Alimpa Medhi(Science)",
         percentage: "88.8%",
         year: "2023",
         image: "/dbnss/result/Alimpa_Medhi.webp"
     },
     {
-        name: "Anubha Marme",
+        name: "Anubha Marme(Science)",
         percentage: "88.2%",
         year: "2024",
         image: "/dbnss/result/Anubha_Marme.webp"
     },
     {
-        name: "Tina Moni Boro",
+        name: "Tina Moni Boro(Arts)",
         percentage: "86.6%",
         year: "2024",
         image: "/dbnss/result/Tina_Moni_Boro.webp"
     },
     {
-        name: "Sibangee Bhattacharya",
+        name: "Sibangee Bhattacharya(Science)",
         percentage: "86.2%",
         year: "2025",
         image: "/dbnss/result/Sibangee_Bhattacharya.webp"
     },
     {
-        name: "Momi Rahang",
+        name: "Momi Rahang(Arts)",
         percentage: "88.6%",
         year: "2024",
         image: "/dbnss/result/Momi_Rahang.webp"
