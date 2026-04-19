@@ -8,11 +8,11 @@ export default function CoursesMainBanner() {
     <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with optimized loading */}
       <Image
-        src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920&auto=format&fit=crop"
+        src="/courses_hero.jpeg"
         alt="Students in classroom - Academic Programs"
         fill
         priority
-        className="object-cover scale-105"
+        className="object-cover scale-105 object-top"
         sizes="100vw"
       />
 

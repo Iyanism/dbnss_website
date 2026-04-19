@@ -16,7 +16,7 @@ export const NAVLINKS = [
 export const heroSlides = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1600792170156-7fdc12ed6733?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/hero_1.webp",
         alt: "Students in classroom",
         tagline: "Premier Education in Khetri",
         title: "Best Senior Secondary Excellence from LKG to 12th",
@@ -24,7 +24,7 @@ export const heroSlides = [
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1599666882726-fe28581e3147?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/hero_2.webp",
         alt: "School campus",
         tagline: "Specialized Streams",
         title: "Shape Your Future with Arts and Science",
@@ -32,7 +32,7 @@ export const heroSlides = [
     },
     {
         id: 3,
-        image: "/hero_3.webp",
+        image: "/classroom.webp",
         alt: "Sports activities",
         tagline: "Holistic Development",
         title: "A Glimpse Into a Brighter Tomorrow",
@@ -176,7 +176,7 @@ export const toppers: Topper[] = [
     {
         name: "Momi Rahang(Arts)",
         percentage: "88.6%",
-        year: "2024",
+        year: "2025",
         image: "/dbnss/result/Momi_Rahang.webp"
     },
 ];
