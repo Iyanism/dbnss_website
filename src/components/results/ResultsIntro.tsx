@@ -34,7 +34,7 @@ export default function ResultsIntro() {
                             {
                                 icon: Award,
                                 title: "Consistent Ranks",
-                                stats: "Top 10",
+                                stats: "Top 5",
                                 desc: "Regularly featuring in the board's top performer lists."
                             },
                             {

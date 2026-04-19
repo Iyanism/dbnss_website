@@ -58,7 +58,6 @@ export default function ToppersSection() {
                                 <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12">
                                     <div className="space-y-1">
                                         <span className="text-7xl md:text-8xl font-black tracking-tighter">{hslc2026Toppers[0].percentage}</span>
-                                        <p className="text-blue-100 font-extrabold uppercase tracking-[0.4em] text-xs">Overall Result</p>
                                     </div>
                                     <div className="hidden md:block h-20 w-px bg-white/20" />
                                     <div className="space-y-1">
