@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { GraduationCap, Award } from "lucide-react";
 import Image from "next/image";
 
-import { toppers, prideStudents, type Topper, type PrideStudent } from "@/lib/siteData";
+import { toppers, hslc2026Toppers, prideStudents, type Topper, type PrideStudent } from "@/lib/siteData";
 
 export default function ToppersSection() {
     return (
@@ -24,9 +24,86 @@ export default function ToppersSection() {
                     </motion.div>
                 </div>
 
+                {/* Section: HSLC 2026 Toppers */}
+                <div className="mb-24">
+                    <div className="flex items-center gap-3 mb-10">
+                        <Award className="text-blue-600 w-8 h-8" />
+                        <h3 className="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight">HSLC 2026 Excellence</h3>
+                    </div>
+
+                    <div className="space-y-8">
+                        {/* Limelight for Center Topper - Full Width Hero */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="bg-blue-600 p-8 md:p-12 rounded-[2.5rem] text-white flex flex-col md:flex-row items-center gap-12 shadow-2xl shadow-blue-200 relative overflow-hidden group"
+                        >
+                            {/* Decorative Sparkle Influence */}
+                            <div className="absolute -right-20 -top-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:bg-white/20 transition-all duration-700" />
+                            
+                            <div className="relative w-56 h-72 md:w-64 md:h-80 flex-shrink-0 rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl z-10">
+                                <Image
+                                    src={hslc2026Toppers[0].image}
+                                    alt={hslc2026Toppers[0].name}
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className="space-y-8 text-center md:text-left z-10 flex-grow">
+                                <div className="space-y-4">
+                                    <span className="bg-white text-blue-600 text-xs font-black uppercase tracking-[0.3em] px-6 py-2 rounded-full shadow-lg inline-block">HSLC Center Topper</span>
+                                    <h4 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase leading-[0.9] tracking-tighter">{hslc2026Toppers[0].name}</h4>
+                                </div>
+                                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12">
+                                    <div className="space-y-1">
+                                        <span className="text-7xl md:text-8xl font-black tracking-tighter">{hslc2026Toppers[0].percentage}</span>
+                                        <p className="text-blue-100 font-extrabold uppercase tracking-[0.4em] text-xs">Overall Result</p>
+                                    </div>
+                                    <div className="hidden md:block h-20 w-px bg-white/20" />
+                                    <div className="space-y-1">
+                                        <span className="text-4xl md:text-5xl font-black">2026</span>
+                                        <p className="text-blue-100 font-extrabold uppercase tracking-[0.4em] text-xs">Passing Year</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        {/* Other HSLC Toppers - 2 Column Grid */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                            {hslc2026Toppers.slice(1).map((topper, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-sm flex items-center gap-8 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300"
+                                >
+                                    <div className="relative w-32 h-44 flex-shrink-0 rounded-2xl overflow-hidden border border-slate-100 shadow-inner">
+                                        <Image
+                                            src={topper.image}
+                                            alt={topper.name}
+                                            fill
+                                            className="object-cover"
+                                                />
+                                            </div>
+                                            <div className="space-y-4">
+                                                <h4 className="text-xl md:text-2xl font-black text-slate-900 uppercase leading-tight">{topper.name}</h4>
+                                                <div className="flex flex-col">
+                                                    <span className="text-blue-600 font-black text-4xl">{topper.percentage}</span>
+                                            <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-2">HSLC 2026</span>
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
                 {/* Section 1: Our Centre Toppers */}
                 <div className="mb-24">
-                    <div className="flex items-center gap-3 mb-12">
+                    <div className="flex items-center gap-3 mb-10">
                         <Award className="text-blue-600 w-8 h-8" />
                         <h3 className="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight">Our Centre Toppers</h3>
                     </div>

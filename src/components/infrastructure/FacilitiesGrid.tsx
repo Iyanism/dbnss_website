@@ -15,7 +15,7 @@ const facilities = [
             "Whiteboard Teaching Aids",
             "Upgrading to Digital Smart Boards Soon"
         ],
-        image: "/hero_3.webp"
+        image: "/classroom.webp"
     },
     {
         title: "Library",

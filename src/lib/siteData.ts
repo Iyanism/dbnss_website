@@ -150,7 +150,7 @@ export const toppers: Topper[] = [
         image: "/dbnss/result/Sumi_Pator.webp"
     },
     {
-        name: "Alimpa Medhi(Science)",
+        name: "Alimpa Medhi(Arts)",
         percentage: "88.8%",
         year: "2023",
         image: "/dbnss/result/Alimpa_Medhi.webp"
@@ -179,6 +179,27 @@ export const toppers: Topper[] = [
         year: "2024",
         image: "/dbnss/result/Momi_Rahang.webp"
     },
+];
+
+export const hslc2026Toppers: Topper[] = [
+    {
+        name: "Gunjan Das",
+        percentage: "93.16%",
+        year: "2026",
+        image: "/dbnss/result/hslc_2026/Gunjan_Das(HSLC_Center_Topper).jpeg"
+    },
+    {
+        name: "Bhaskar Jyoti Phukan",
+        percentage: "82.33%",
+        year: "2026",
+        image: "/dbnss/result/hslc_2026/Bhaskar_Jyoti_Phukan.jpeg"
+    },
+    {
+        name: "Kuldeep Puri",
+        percentage: "81.82%",
+        year: "2026",
+        image: "/dbnss/result/hslc_2026/Kuldeep_Puri.jpeg"
+    }
 ];
 
 export const prideStudents: PrideStudent[] = [

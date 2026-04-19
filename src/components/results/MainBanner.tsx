@@ -8,7 +8,7 @@ export default function ResultsMainBanner() {
         <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden">
             {/* Background Image - Graduation/Success themed */}
             <Image
-                src="/dbnss/Felicitation of centre toppers/result_main.webp"
+                src="/result_main.webp"
                 alt="Academic Excellence and Success"
                 fill
                 priority
